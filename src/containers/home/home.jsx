@@ -1,71 +1,67 @@
-import { useState } from "react";
-import { Tabs, Tab, Grid, AppBar } from "@material-ui/core";
-import { makeStyles, rgbToHex } from "@material-ui/core/styles";
-import { yellow } from "@material-ui/core/colors";
+import { makeStyles } from "@material-ui/core/styles";
+import style from "./home.module.css";
+import { Link } from "react-router-dom";
 
 const useStyles = makeStyles((theme) => ({
-  container: {
+
+  ul: {
+    width: '40%',
+    marginTop: '0',
+    marginLeft:'30%',
+    height: "10vh",
     display: "flex",
     justifyContent: "center",
     alignItems: "center",
+    listStyleType: "none",
+    backgroundColor: 'white',
+    
   },
-  border: {
-    border: "",
-  },
-  tab: {
-    background: "rgb(42, 42, 42)",
-   
-  },
+  
 }));
 
 export default function Home() {
-  const [value, setValue] = useState(0);
   const classes = useStyles();
 
-  const handleChange = (event, newValue) => {
-    event.preventDefault();
-    setValue(newValue);
-  };
-
   return (
-    <Grid container>
-      <Grid item xs={1}>
-        <AppBar
-          position="fixed"
-          style={{alignItems:'center', height: "10vh", background: "rgb(129, 0, 0)", }}
-        >
-          <Tabs
-            style={{background: "rgb(129, 0, 0)", borderRadius: '30px'}}
-            value={value}
-            onChange={handleChange}
-            variant="fullWidth"
-            centered={true}
-            className={classes.tab}
-          >
-            <Tab label="Blog"  />
-            <Tab label="Proyects" />
-            <Tab label="Contact" />
-          </Tabs>
-        </AppBar>
-      </Grid>
-
-      <Grid item xs={10}>
-        {/* <Card elevation={3} className={classes.cardContainer}>
-            {value === 0 && <CreateAccount assets={assets} />}
-            {value === 1 && <BalanceAccount assets={assets} />}
-            {value === 2 && <Transaction />}
-            {value === 3 && <TransactionsHistory publicKey={publicKey} />}
-            {value === 4 && (
-              <ChangeTrust
-                publicKey={publicKey}
-                secretKey={secretKey}
-                assets={assets}
-                account={account}
-              />
-            )}
-            
-          </Card> */}
-      </Grid>
-    </Grid>
+    <>
+      <nav className={ style.border}>
+        <ul className={classes.ul}>
+          <li className={style.li}>
+            <Link to="/" className={style.link}>
+              ABOUT
+            </Link>
+          </li>
+          <li className={style.li}>
+            <Link to="/" className={style.link}>
+              BLOG
+            </Link>
+          </li>
+          <li className={style.li}><div className={style.logo}></div></li>
+          <li className={style.li}>
+            <Link to="/" className={style.link}>
+              CONTACT
+            </Link>
+          </li>
+          <li className={style.li}>
+            <Link to="/" className={style.link}>
+              PROYECTS
+            </Link>
+          </li>
+        </ul>
+      </nav>
+      <section className={style.sectionWelcome}>
+        <p className={style.hello}>Hi, i'am </p>{" "}
+        
+      </section>
+      <section className={style.sectionName}>
+        <p className={style.rodrigo}>RODRIGO</p>{" "}
+        <p className={style.juarez}>Juarez</p> 
+      </section>
+      <section className={style.sectionJob}>
+        <p className={style.full}>Full</p>
+        <p className={style.stack}>Stack</p>
+        <p className={style.developer}>DEVELOPER</p>
+      </section>
+    </>
   );
 }
