@@ -1,25 +1,25 @@
 :root {
-  background: url("../../images/background.jpg");
+  background-color: #f8f8f8;
 }
+
 .border{
   border: red  1px
 }
 
 .li {
-  margin-left: 0%;
   width: 30%;
   height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 1rem;
+  font-size: 13px;
   font-family: "brandon-grotesque", Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 700;
   
 }
 .li:hover {
-  background-color: rgb(214, 213, 213);
+  background-color: rgb(194, 193, 193);
   transition: 800ms;
 }
 
@@ -46,26 +46,27 @@
 }
 
 .sectionWelcome {
-  background-color: white;
+  background-color: transparent;
   height: 15vh;
   width: 30%;
   display: flex;
   justify-content: center;
   margin-left: 35%;
-  margin-top: 4rem;
+  
 
 }
 .sectionName {
-  background-color: white;
-  height: 20vh;
-  width: 50%;
+  background-color: transparent;
+  height: 25vh;
+  width: 60%;
   display: flex;
   justify-content: center;
-  margin-left: 25%;
-
+  margin-left: 20%;
+  margin-top: 1rem;
+  
 }
 .sectionJob {
-  background-color: white;
+  background-color: transparent;
   width: 100%;
   height: 33vh;
   display: inline-flex;
@@ -75,25 +76,26 @@
 }
 .hello {
   font-family: "Vast Shadow", cursive;
-  font-size: 3.5rem;
-  margin: 1.5rem;
+  font-size: 5rem;
+  margin: 0;
+  margin-right: 0.5rem;
 }
 
 .rodrigo {
   font-family: "Zilla Slab Highlight", cursive;
-  font-size: 3rem;
-  margin: 1.8rem;
+  font-size: 5rem;
+  margin: 1.5rem;
 }
 
 .juarez {
   font-family: "Londrina Outline", cursive;
   font-weight: 600;
-  font-size: 6rem;
+  font-size: 7rem;
   margin: 1.8rem;
 }
 .full {
   font-family: "Fredericka the Great", cursive;
-  font-size: 5rem;
+  font-size: 5.5rem;
   margin: 1rem 0.5rem auto 1rem;
 }
 .stack {
@@ -105,4 +107,41 @@
   font-family: "Bungee Shade", cursive;
   font-size: 6.5rem;
   margin: 0 0.5rem auto 1rem;
+}
+.tracking {
+	-webkit-animation: tracking 1.3s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+	        animation: tracking 1.3s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+}
+
+ @-webkit-keyframes tracking {
+  0% {
+    letter-spacing: -0.5em;
+    -webkit-transform: translateZ(-700px) translateY(-500px);
+            transform: translateZ(-700px) translateY(-500px);
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    -webkit-transform: translateZ(0) translateY(0);
+            transform: translateZ(0) translateY(0);
+    opacity: 1;
+  }
+}
+@keyframes tracking {
+  0% {
+    letter-spacing: -0.5em;
+    -webkit-transform: translateZ(-700px) translateY(-500px);
+            transform: translateZ(-700px) translateY(-500px);
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    -webkit-transform: translateZ(0) translateY(0);
+            transform: translateZ(0) translateY(0);
+    opacity: 1;
+  }
 }
