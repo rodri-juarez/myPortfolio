@@ -1,4 +1,5 @@
 import style from "./home.module.css";
+import { Link } from "react-router-dom";
 
 export default function Home() {
   
@@ -16,6 +17,11 @@ export default function Home() {
         <p className={`${style.full}  ${style.tracking}`}>Full</p>
         <p className={`${style.stack}  ${style.tracking}`}>Stack</p>
         <p className={`${style.developer}  ${style.tracking}`}>DEVELOPER</p>
+      </section>
+      <section className={style.contact}>
+        <button className={style.excentrico}><Link to="/Contact" className={style.link}>
+              CONTACT ME
+            </Link></button>
       </section>
     </>
   );

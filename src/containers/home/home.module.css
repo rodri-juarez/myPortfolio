@@ -1,5 +1,7 @@
 :root {
   background-color: #f8f8f8;
+  font-family: "brandon-grotesque", Arial, Helvetica, sans-serif;
+
 }
 
 .border{
@@ -144,4 +146,20 @@
             transform: translateZ(0) translateY(0);
     opacity: 1;
   }
+}
+
+.contact{
+  margin-top: 4rem;
+  height: 20vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+}
+
+.excentrico {
+  font-weight: bold;
+  height: 30%;
+  width: 150px;
+  border: 1px solid rgba(255,255,255,0.4);
 }
