@@ -37,7 +37,6 @@ export default function Navbar() {
             BLOG
           </a>
         </li>
-        {/* <li className={style.li}><div className={style.logo}></div></li> */}
         <li className={`${style.li}  ${style.tracking}`}>
           <Link to="/Contact" className={style.link}>
             CONTACT ME
