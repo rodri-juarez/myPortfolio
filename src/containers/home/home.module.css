@@ -1,11 +1,6 @@
 :root {
   background-color: #f8f8f8;
   font-family: "brandon-grotesque", Arial, Helvetica, sans-serif;
-
-}
-
-.border{
-  border: red  1px
 }
 
 .li {
@@ -17,8 +12,7 @@
   font-size: 13px;
   font-family: "brandon-grotesque", Arial, Helvetica, sans-serif;
   font-style: normal;
-  font-weight: 700;
-  
+  font-weight: 700; 
 }
 .li:hover {
   background-color: rgb(194, 193, 193);
@@ -44,7 +38,6 @@
 }
 .logo:hover {
   transform: scale(1.2);
-  
 }
 
 .sectionWelcome {
@@ -149,7 +142,7 @@
 }
 
 .contact{
-  margin-top: 4rem;
+  margin-top: 2rem;
   height: 20vh;
   display: flex;
   justify-content: center;
