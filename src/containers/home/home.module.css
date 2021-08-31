@@ -1,8 +1,22 @@
 :root {
-  background-color: #f8f8f8;
+  background-color: #f5f5f5;
   font-family: "brandon-grotesque", Arial, Helvetica, sans-serif;
 }
+.ul{
+  width: 40%;
+    margin-top: 1vh;
+    margin-left: 27%;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    background-color: transparent;
+}
 
+.border {
+  background-color: transparent;
+}
 .li {
   width: 30%;
   height: 100%;
@@ -152,7 +166,7 @@
 
 .excentrico {
   font-weight: bold;
-  height: 30%;
-  width: 150px;
+  height: 35%;
+  width: 160px;
   border: 1px solid rgba(255,255,255,0.4);
 }

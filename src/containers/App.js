@@ -3,6 +3,7 @@ import "./App.css";
 import Home from "./home/home";
 import Contact from "../components/contact/contact";
 import Navbar from "../components/navbar/navbar";
+import Proyects from "../components/proyects/proyects";
 
 function App() {
   return (
@@ -18,6 +19,10 @@ function App() {
       <Route path="/Contact">
         {" "}
         <Contact />
+      </Route>
+      <Route path="/Proyects">
+        {" "}
+        <Proyects />
       </Route>
     </Router>
   );

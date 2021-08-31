@@ -1,31 +1,33 @@
 import style from "../../containers/home/home.module.css";
-import { Link } from "react-router-dom";
-import { makeStyles } from "@material-ui/core/styles";
-
-const useStyles = makeStyles((theme) => ({
-  ul: {
-    width: "40%",
-    marginTop: "1vh",
-    marginLeft: "27%",
-    height: "10vh",
-    display: "flex",
-    justifyContent: "center",
-    alignItems: "center",
-    listStyleType: "none",
-    backgroundColor: "transparent",
-  },
-}));
+import { NavLink } from "react-router-dom";
 
 export default function Navbar() {
-  const classes = useStyles();
-
   return (
     <nav className={style.border}>
-      <ul className={classes.ul}>
+      <ul id="ul" className={style.ul}>
         <li className={`${style.li}  ${style.tracking}`}>
-          <Link to="/" className={style.link}>
+          <NavLink
+            to="/Proyects"
+            activeStyle={{
+              backgroundColor: "rgb(194, 193, 193)",
+              transition: "800ms",
+            }}
+            className={style.link}
+            replace
+          >
+            PROYECTS
+          </NavLink>
+        </li>
+        <li className={`${style.li}  ${style.tracking}`}>
+          <NavLink exact to="/" replace 
+          className={style.link}
+          activeStyle={{
+            backgroundColor: "rgb(194, 193, 193)",
+            transition: "800ms",
+          }}
+          >
             ABOUT ME
-          </Link>
+          </NavLink>
         </li>
         <li className={`${style.li}  ${style.tracking}`}>
           <a
@@ -38,9 +40,17 @@ export default function Navbar() {
           </a>
         </li>
         <li className={`${style.li}  ${style.tracking}`}>
-          <Link to="/Contact" className={style.link}>
+          <NavLink
+            to="/Contact"
+            activeStyle={{
+              backgroundColor: "rgb(194, 193, 193)",
+              transition: "800ms",
+            }}
+            className={style.link}
+            replace
+          >
             CONTACT ME
-          </Link>
+          </NavLink>
         </li>
       </ul>
     </nav>
