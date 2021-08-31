@@ -1,0 +1,47 @@
+.sectionSkills {
+  margin-top: 10vh;
+  height: 60vh;
+  display: flex;
+  justify-content: center;
+}
+
+.border {
+  border: red solid 1px;
+}
+
+.div {
+  height: 300px;
+  margin: 1rem;
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  
+  align-items: center;
+  border: rgb(121, 121, 121) solid 2px;
+}
+.img1 {
+  height: 150px;
+  margin-bottom: 1rem;
+  width: 70%;
+  background-image: url("../../images/responsive.png");
+  background-size: cover;
+}
+.hr {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+.img2 {
+  height: 150px;
+  margin-bottom: 1rem;
+  width: 70%;
+  background-image: url("../../images/interactive.png");
+  background-size: cover;
+}
+.img3 {
+  height: 150px;
+  margin-bottom: 1rem;
+  width: 70%;
+  background-image: url("../../images/prototyping.png");
+  background-size: cover;
+}

@@ -24,7 +24,7 @@ export default function Navbar() {
       <ul className={classes.ul}>
         <li className={`${style.li}  ${style.tracking}`}>
           <Link to="/" className={style.link}>
-            ABOUT
+            ABOUT ME
           </Link>
         </li>
         <li className={`${style.li}  ${style.tracking}`}>

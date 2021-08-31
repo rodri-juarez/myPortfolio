@@ -15,7 +15,7 @@ export default function Contact() {
         >
           <li className={style.list}>
             <IconContext.Provider
-              value={{ color: "blue", size: "30px" }}
+              value={{ color: "rgb(100, 100, 100)", size: "30px" }}
             >
               <GrLinkedin />
             </IconContext.Provider>
@@ -28,7 +28,7 @@ export default function Contact() {
         >
           <li className={style.list}>
             <IconContext.Provider
-              value={{ color: "red", size: "30px" }}
+              value={{ color: "rgb(100, 100, 100)", size: "30px" }}
             >
               <SiGmail />
             </IconContext.Provider>

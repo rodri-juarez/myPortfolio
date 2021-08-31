@@ -29,12 +29,11 @@ a {
   height: 50px;
   width: 50px;
   padding: 10px;
-  border: rgb(121, 121, 121) solid 3px;
+  border: rgb(121, 121, 121) solid 5px;
   border-radius: 50px;
 }
 .list:hover {
-  
-  border: black solid 3px;
+  border: black solid 5px;
 }
 
 .ul {
