@@ -1,10 +1,10 @@
-import style from "../../containers/home/home.module.css";
+import style from './navbar.module.css';
 import { NavLink } from "react-router-dom";
 
 export default function Navbar() {
   return (
-    <nav className={style.border}>
-      <ul id="ul" className={style.ul}>
+    <nav className={style.nav}>
+      <ul className={style.ul}>
         <li className={`${style.li}  ${style.tracking}`}>
           <NavLink
             to="/Proyects"

@@ -6,8 +6,8 @@ import { SiGmail } from "react-icons/si";
 export default function Contact() {
   return (
     <div className={`${style.main} ${style.tracking}`}>
-      <h1 className={style.border}>Get in touch!</h1>
-      
+      <h1 className={style.h1}>Get in touch!</h1>
+
       <ul className={style.ul}>
         <a
           href="https://drive.google.com/file/d/11jEEsPSd-KgkNZgkdVCsUv9_eVUWYmP5/view?usp=sharing"
@@ -34,7 +34,7 @@ export default function Contact() {
           target="_blank"
           rel="noreferrer"
         >
-          <li className={style.list}>
+          <li className={style.listRight}>
             <IconContext.Provider
               value={{ color: "rgb(100, 100, 100)", size: "30px" }}
             >

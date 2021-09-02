@@ -9,7 +9,7 @@ export default function Proyects() {
         <Splide
           options={{
             rewind: true,
-            width: 600,
+            width: '80%',
             gap: "3rem",
             autoplay: true,
             interval: 5000,
@@ -57,7 +57,7 @@ export default function Proyects() {
         <Splide
           options={{
             rewind: true,
-            width: 600,
+            width: "80%",
             gap: "3rem",
             autoplay: true,
             interval: 5000,

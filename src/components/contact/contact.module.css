@@ -1,10 +1,11 @@
-.border {
+.h1 {
   font-size: 5rem;
   font-weight: 600;
   width: 100%;
   display: flex;
   justify-content: center;
 }
+
 
 .main {
   width: 50%;
@@ -24,8 +25,8 @@ a {
   list-style-type: none;
 }
 
-.list{
-  margin: 1rem; 
+.list {
+  margin: 1rem;
   height: 50px;
   width: 50px;
   padding: 10px;
@@ -35,7 +36,23 @@ a {
   font-weight: bold;
   font-size: 1.7rem;
 }
+.listRight {
+  margin: 1rem;
+  margin-right: 55px;
+  height: 50px;
+  width: 50px;
+  padding: 10px;
+  border: rgb(121, 121, 121) solid 5px;
+  border-radius: 50px;
+  color: rgb(121, 121, 121);
+  font-weight: bold;
+  font-size: 1.7rem;
+  
+}
 .list:hover {
+  border: black solid 5px;
+}
+.listRight:hover {
   border: black solid 5px;
 }
 
@@ -45,26 +62,17 @@ a {
   align-items: center;
   width: 50%;
 }
-.react-icons{
-  font-size: 2rem;
-  color: blue;
-}
-
-.border1{
-  border:black solid 5px;
-  display: inline-block;
-}
 
 .tracking {
-	-webkit-animation: tracking 1.3s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
-	        animation: tracking 1.3s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+  -webkit-animation: tracking 1.3s cubic-bezier(0.215, 0.61, 0.355, 1) both;
+  animation: tracking 1.3s cubic-bezier(0.215, 0.61, 0.355, 1) both;
 }
 
- @-webkit-keyframes tracking {
+@-webkit-keyframes tracking {
   0% {
     letter-spacing: -0.5em;
     -webkit-transform: translateZ(-700px) translateY(-500px);
-            transform: translateZ(-700px) translateY(-500px);
+    transform: translateZ(-700px) translateY(-500px);
     opacity: 0;
   }
   40% {
@@ -72,7 +80,7 @@ a {
   }
   100% {
     -webkit-transform: translateZ(0) translateY(0);
-            transform: translateZ(0) translateY(0);
+    transform: translateZ(0) translateY(0);
     opacity: 1;
   }
 }
@@ -80,7 +88,7 @@ a {
   0% {
     letter-spacing: -0.5em;
     -webkit-transform: translateZ(-700px) translateY(-500px);
-            transform: translateZ(-700px) translateY(-500px);
+    transform: translateZ(-700px) translateY(-500px);
     opacity: 0;
   }
   40% {
@@ -88,9 +96,17 @@ a {
   }
   100% {
     -webkit-transform: translateZ(0) translateY(0);
-            transform: translateZ(0) translateY(0);
+    transform: translateZ(0) translateY(0);
     opacity: 1;
   }
 }
 
-
+@media screen and (max-width: 540px) {
+  .main{
+    width: 100%;
+    margin-left: 0%;
+  }
+  .h1{
+    font-size: 3rem;
+  }
+}
