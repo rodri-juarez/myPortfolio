@@ -6,10 +6,11 @@ export default function Proyects() {
   return (
     <ul className={style.ul}>
       <li className={`${style.proyects} ${style.tracking}`}>
+        <div className={style.divCarousel}>
         <Splide
           options={{
             rewind: true,
-            width: '60%',
+            width: '100%',
             gap: "3rem",
             autoplay: true,
             interval: 5000,
@@ -27,6 +28,7 @@ export default function Proyects() {
             <img src="https://i.ibb.co/BCtt9mw/wallet.png" alt="" />
           </SplideSlide>
         </Splide>
+        </div>
         <div className={style.divDescription}>
           <p className={style.descriptionTitle}>Rocket Xchange</p>
           <p>
@@ -54,10 +56,11 @@ export default function Proyects() {
         </div>
       </li>
       <li className={`${style.proyects} ${style.tracking}`}>
+      <div className={style.divCarousel}>
         <Splide
           options={{
             rewind: true,
-            width: "60%",
+            width: "100%",
             gap: "3rem",
             autoplay: true,
             interval: 5000,
@@ -76,6 +79,7 @@ export default function Proyects() {
             <img src="https://i.ibb.co/7WrLhsH/game-Detail.png" alt="" />
           </SplideSlide>
         </Splide>
+        </div>
         <div className={style.divDescription}>
           <p className={style.descriptionTitle}>Henry Videogames</p>
           <p>
