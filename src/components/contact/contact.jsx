@@ -5,12 +5,17 @@ import { SiGmail } from "react-icons/si";
 
 export default function Contact() {
   return (
-    <div className={style.main}>
-      <h1 className={`${style.border} ${style.tracking}`}>Get in touch!</h1>
-      {/* <a href="./rodrigo.pdf" download="CV-Rodrigo.pdf">
-        Descargar Archivo
-      </a> */}
-      <ul className={`${style.ul} ${style.tracking}`}>
+    <div className={`${style.main} ${style.tracking}`}>
+      <h1 className={style.border}>Get in touch!</h1>
+      <a
+        className={style.a}
+        href="https://drive.google.com/file/d/11jEEsPSd-KgkNZgkdVCsUv9_eVUWYmP5/view?usp=sharing"
+        target="_blank"
+        rel="noreferrer"
+      >
+        MY CV
+      </a>
+      <ul className={style.ul}>
         <a
           href="https://www.linkedin.com/in/rodrigojuarez-dev/"
           target="_blank"

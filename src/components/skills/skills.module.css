@@ -5,9 +5,7 @@
   justify-content: center;
 }
 
-.border {
-  border: red solid 1px;
-}
+
 
 .div {
   height: 320px;
@@ -23,7 +21,7 @@
   height: 150px;
   margin-bottom: 1rem;
   width: 70%;
-  background-image: url("../../images/responsive.png");
+  background-image: url("../../assets/responsive.png");
   background-size: cover;
 }
 .hr {
@@ -35,14 +33,14 @@
   height: 150px;
   margin-bottom: 1rem;
   width: 70%;
-  background-image: url("../../images/interactive.png");
+  background-image: url("../../assets/interactive.png");
   background-size: cover;
 }
 .img3 {
   height: 150px;
   margin-bottom: 1rem;
   width: 70%;
-  background-image: url("../../images/prototyping.png");
+  background-image: url("../../assets/prototyping.png");
   background-size: cover;
 }
 .p {

@@ -1,10 +1,30 @@
 import style from "./proyects.module.css";
+import { Splide, SplideSlide } from "@splidejs/react-splide";
+import "@splidejs/splide/dist/css/themes/splide-sea-green.min.css";
 
 export default function Proyects() {
   return (
     <ul className={style.ul}>
       <li className={`${style.proyects} ${style.tracking}`}>
-        <div className={`${style.divImg1} ${style.imag}`}></div>
+        <Splide
+          options={{
+            rewind: true,
+            width: 600,
+            gap: "3rem",
+            autoplay: true,
+            interval: 5000,
+          }}
+        >
+          <SplideSlide>
+            <img src="https://i.ibb.co/H2nbqP5/Untitled.png" alt="" />
+          </SplideSlide>
+          <SplideSlide>
+            <img src="https://i.ibb.co/H2nbqP5/Untitled.png" alt="" />
+          </SplideSlide>
+          <SplideSlide>
+            <img src="https://i.ibb.co/H2nbqP5/Untitled.png" alt="" />
+          </SplideSlide>
+        </Splide>
         <div className={style.divDescription}>
           <p className={style.descriptionTitle}>Rocket Xchange</p>
           <p>
@@ -13,6 +33,7 @@ export default function Proyects() {
               href="https://rocketxchange.vercel.app/"
               target="_blank"
               rel="noreferrer"
+              className={style.urlDeploy}
             >
               {" "}
               rocketxchange.vercel.app{" "}
@@ -31,7 +52,25 @@ export default function Proyects() {
         </div>
       </li>
       <li className={`${style.proyects} ${style.tracking}`}>
-        <div className={`${style.divImg2} ${style.imag}`}></div>
+        <Splide
+          options={{
+            rewind: true,
+            width: 600,
+            gap: "3rem",
+            autoplay: true,
+            interval: 5000,
+          }}
+        >
+          <SplideSlide>
+            <img src="https://i.ibb.co/8Kfn4fG/henry-videogames.png" alt="" />
+          </SplideSlide>
+          <SplideSlide>
+            <img src="https://i.ibb.co/8Kfn4fG/henry-videogames.png" alt="" />
+          </SplideSlide>
+          <SplideSlide>
+            <img src="https://i.ibb.co/8Kfn4fG/henry-videogames.png" alt="" />
+          </SplideSlide>
+        </Splide>
         <div className={style.divDescription}>
           <p className={style.descriptionTitle}>Henry Videogames</p>
           <p>
@@ -40,6 +79,7 @@ export default function Proyects() {
               href="https://github.com/rodri-juarez/PI-Videogames-FT-13"
               target="_blank"
               rel="noreferrer"
+              className={style.urlDeploy}
             >
               {" "}
               videogames-henry.vercel.app{" "}

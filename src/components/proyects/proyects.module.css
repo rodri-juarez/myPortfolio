@@ -13,22 +13,8 @@
   display: flex;
   justify-content: flex-start;
 }
-.divImg1 {
-  background-image: url("../../images/Untitled.png");
-  background-size: cover;
-  width: 65%;
-  height: 85%;
-  margin-left: 0%;
-  border: rgb(94, 94, 94) solid 1px;
-}
-.divImg2 {
-  background-image: url("../../images/henry-videogames.png");
-  background-size: cover;
-  width: 65%;
-  height: 85%;
-  margin-left: 0%;
-  border: rgb(94, 94, 94) solid 1px;
-}
+
+
 .divDescription {
   margin: 2rem;
   width: 35%;
@@ -41,7 +27,7 @@
 .descriptionTitle {
   display: flex;
   text-align: center;
-  font-size: 1.3rem;
+  font-size: 1.5rem;
   font-weight: bold;
 }
 .description {
@@ -51,6 +37,10 @@
 }
 .button {
   font-weight: bold;
+}
+
+.urlDeploy{
+  color:black
 }
 
 .tracking {
@@ -90,3 +80,5 @@
     opacity: 1;
   }
 }
+
+

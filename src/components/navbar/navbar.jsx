@@ -8,25 +8,23 @@ export default function Navbar() {
         <li className={`${style.li}  ${style.tracking}`}>
           <NavLink
             to="/Proyects"
-            activeStyle={{
-              backgroundColor: "rgb(194, 193, 193)",
-              transition: "800ms",
-            }}
+            activeClassName={style.linkActive}
             className={style.link}
-            replace
           >
             PROYECTS
+            <hr></hr>
           </NavLink>
         </li>
         <li className={`${style.li}  ${style.tracking}`}>
-          <NavLink exact to="/" replace 
-          className={style.link}
-          activeStyle={{
-            backgroundColor: "rgb(194, 193, 193)",
-            transition: "800ms",
-          }}
+          <NavLink
+            exact
+            to="/"
+            replace
+            activeClassName={style.linkActive}
+            className={style.link}
           >
             ABOUT ME
+            <hr></hr>
           </NavLink>
         </li>
         <li className={`${style.li}  ${style.tracking}`}>
@@ -42,14 +40,11 @@ export default function Navbar() {
         <li className={`${style.li}  ${style.tracking}`}>
           <NavLink
             to="/Contact"
-            activeStyle={{
-              backgroundColor: "rgb(194, 193, 193)",
-              transition: "800ms",
-            }}
+            activeClassName={style.linkActive}
             className={style.link}
-            replace
           >
             CONTACT ME
+            <hr></hr>
           </NavLink>
         </li>
       </ul>
