@@ -14,7 +14,6 @@
   justify-content: flex-start;
 }
 
-
 .divDescription {
   margin: 2rem;
   width: 35%;
@@ -39,8 +38,8 @@
   font-weight: bold;
 }
 
-.urlDeploy{
-  color:black
+.urlDeploy {
+  color: black;
 }
 
 .tracking {
@@ -81,20 +80,20 @@
   }
 }
 
-
 @media screen and (max-width: 540px) {
-  .ul{
-    width: 100%;
+  .ul {
+    width: 89%;
     height: 100%;
   }
- .proyects{
-   width: 300px;
-   flex-direction: column;
- }
- img{
-   width: 300px;
- }
- .divDescription{
-   margin: 0%;
- }
+  .proyects {
+    width: 300px;
+    flex-direction: column;
+  }
+  img {
+    width: 100%;
+  }
+  .divDescription {
+    width: 100%;
+    margin: 0%;
+  }
 }

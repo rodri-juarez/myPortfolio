@@ -3,7 +3,6 @@
   font-family: "brandon-grotesque", Arial, Helvetica, sans-serif;
 }
 
-
 .link {
   width: 100%;
   height: 100%;
@@ -14,7 +13,6 @@
   justify-content: center;
   align-items: center;
 }
-
 
 .sectionWelcome {
   background-color: transparent;
@@ -74,6 +72,7 @@
   font-family: "Bungee Shade", cursive;
   font-size: 6.5rem;
   margin: 0 0.5rem auto 1rem;
+  font-weight: bold;
 }
 .tracking {
   -webkit-animation: tracking 1.3s cubic-bezier(0.215, 0.61, 0.355, 1) both;
@@ -130,39 +129,54 @@
 }
 
 @media screen and (max-width: 540px) {
-  .sectionJob, .sectionName{
+  .sectionJob {
     flex-direction: column;
+    width: 100%;
+    margin-bottom: 3rem;
   }
-  .sectionWelcome{
+  .sectionName {
+    height: 12vh;
+    align-items: center;
+    margin-bottom: 1rem;
+  }
+
+  .sectionWelcome {
     display: flex;
     justify-content: center;
     font-size: 3rem;
-    border: red solid 1px;
     width: 80%;
     height: 8vh;
     margin: 0%;
-    margin-left: 10%; 
-    margin-top: 10%; 
-
+    margin-left: 10%;
+    margin-top: 10%;
   }
-  .hello, .rodrigo, .juarez{
-    font-size: 2rem;
-    margin: 0;
+  .hello {
+    font-size: 3rem;
+    margin-right: 1rem;
+    margin-left: 1rem;
+    margin-top: 0.7rem;
+  }
+  .rodrigo,
+  .juarez {
+    font-size: 2.2rem;
+    margin-right: 1rem;
+    margin-left: 1rem;
+  }
+  .juarez {
+    font-size: 3rem;
   }
   .full {
-    font-size: 2rem;
-    margin: 0;
-    border: red solid 1px;
-  }
-  .stack  {
-    border: red solid 1px;
     font-size: 3rem;
     margin: 0;
+    font-weight: bold;
   }
-  .developer{
+  .stack {
+    font-size: 4rem;
+    margin: 0;
+  }
+  .developer {
     font-size: 3rem;
-    
-    border: red solid 1px;
-    height: 13vh;
+    height: 12vh;
+    margin: 0%;
   }
 }

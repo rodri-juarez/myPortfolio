@@ -43,7 +43,7 @@ export default function Navbar() {
             activeClassName={style.linkActive}
             className={style.link}
           >
-            CONTACT ME
+            CONTACT 
             <hr></hr>
           </NavLink>
         </li>
