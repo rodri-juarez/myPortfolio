@@ -13,16 +13,18 @@ export default function Proyects() {
             gap: "3rem",
             autoplay: true,
             interval: 5000,
-          }}
-        >
+          }}>
           <SplideSlide>
             <img src="https://i.ibb.co/H2nbqP5/Untitled.png" alt="" />
           </SplideSlide>
           <SplideSlide>
-            <img src="https://i.ibb.co/H2nbqP5/Untitled.png" alt="" />
+            <img src="https://i.ibb.co/THzQxsQ/criptos.png" alt="" />
           </SplideSlide>
           <SplideSlide>
-            <img src="https://i.ibb.co/H2nbqP5/Untitled.png" alt="" />
+            <img src="https://i.ibb.co/qprycvg/trade.png" alt="" />
+          </SplideSlide>
+          <SplideSlide>
+            <img src="https://i.ibb.co/BCtt9mw/wallet.png" alt="" />
           </SplideSlide>
         </Splide>
         <div className={style.divDescription}>
@@ -65,10 +67,13 @@ export default function Proyects() {
             <img src="https://i.ibb.co/8Kfn4fG/henry-videogames.png" alt="" />
           </SplideSlide>
           <SplideSlide>
-            <img src="https://i.ibb.co/8Kfn4fG/henry-videogames.png" alt="" />
+            <img src="https://i.ibb.co/SsMHs2N/initial-Page.png" alt="" />
           </SplideSlide>
           <SplideSlide>
-            <img src="https://i.ibb.co/8Kfn4fG/henry-videogames.png" alt="" />
+            <img src="https://i.ibb.co/FzmGyq8/create-Videogame.png" alt="" />
+          </SplideSlide>
+          <SplideSlide>
+            <img src="https://i.ibb.co/7WrLhsH/game-Detail.png" alt="" />
           </SplideSlide>
         </Splide>
         <div className={style.divDescription}>

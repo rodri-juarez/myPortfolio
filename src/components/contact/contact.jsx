@@ -7,15 +7,15 @@ export default function Contact() {
   return (
     <div className={`${style.main} ${style.tracking}`}>
       <h1 className={style.border}>Get in touch!</h1>
-      <a
-        className={style.a}
-        href="https://drive.google.com/file/d/11jEEsPSd-KgkNZgkdVCsUv9_eVUWYmP5/view?usp=sharing"
-        target="_blank"
-        rel="noreferrer"
-      >
-        MY CV
-      </a>
+      
       <ul className={style.ul}>
+        <a
+          href="https://drive.google.com/file/d/11jEEsPSd-KgkNZgkdVCsUv9_eVUWYmP5/view?usp=sharing"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <li className={style.list}>CV</li>
+        </a>
         <a
           href="https://www.linkedin.com/in/rodrigojuarez-dev/"
           target="_blank"
