@@ -170,6 +170,9 @@
   .sectionTech {
     height: 60vh;
   }
+  .sectionComments {
+    height: 105vh;
+  }
   .hello {
     font-size: 3rem;
     margin-right: 1rem;

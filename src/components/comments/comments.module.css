@@ -11,9 +11,39 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin: 10px;
 }
 .p{
-    width: 70%;
+    border: red solid 1px;
+    width: 80%;
     color: rgb(50, 50, 50);
     text-align: center;
+}
+.avatar{
+    border: rgb(121, 121, 121) solid 2px;
+}
+.pTitle{
+    border: red solid 1px;
+    font-weight:500;
+}
+
+@media screen and (max-width: 540px) {
+    .divContainer {
+        border: red solid 1px;
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        height: 100%;
+      }
+      .div {
+        border: red solid 1px;
+        width: 90%;
+        height: 50%;
+        margin: 5%;
+      }
+      .p{
+        width: 85%;
+        color: rgb(50, 50, 50);
+        text-align: center;
+    }
 }
