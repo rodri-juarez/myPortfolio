@@ -39,6 +39,16 @@
   justify-content: center;
   align-items: center;
 }
+.sectionTech {
+  background-color: transparent;
+  width: 100%;
+  height: 40vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .hello {
   font-family: "Vast Shadow", cursive;
   font-size: 5rem;
@@ -149,6 +159,9 @@
     margin: 0%;
     margin-left: 10%;
     margin-top: 10%;
+  }
+  .sectionTech {
+    height: 60vh;
   }
   .hello {
     font-size: 3rem;
