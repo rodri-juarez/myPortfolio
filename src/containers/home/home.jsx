@@ -5,6 +5,7 @@ import Skills from "../../components/skills/skills";
 import Switch from "../../components/switch/switch";
 import Frontend from '../../components/switch/frontend';
 import Backend from "../../components/switch/backend";
+import Comments from "../../components/comments/comments";
 export default function Home() {
   const [isOn, setIsOn] = useState(true);
 
@@ -29,6 +30,10 @@ export default function Home() {
          />
          {!isOn ? <Frontend />: <Backend />}
       </section>
+      <section className={style.sectionComments}>
+        <Comments />
+      </section>
+
       <section className={style.contact}>
         <button className={style.excentrico}>
           <Link to="/Contact" className={style.link}>
