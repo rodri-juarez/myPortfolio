@@ -34,7 +34,7 @@ export default function Backend() {
         </li>
 
         <li className={style.list}>
-          <img src="https://i.ibb.co/kXbZFZG/sequelize.png" alt="" />
+          <Icon icon="simple-icons:sequelize" color="#646464" width="45" height="45" />
           <span style={{ marginTop: "5px" }}>Sequelize</span>
         </li>
         <li className={style.list}>
