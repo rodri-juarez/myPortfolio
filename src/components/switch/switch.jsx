@@ -7,7 +7,8 @@ const Switch = ({ isOn, handleToggle }) => {
   
 
   return (
-    <>
+    <div className={style.divContainer}>
+    <p className={style.p}>Tech Stack</p>
       <input
         checked={isOn}
         onChange={handleToggle}
@@ -18,7 +19,7 @@ const Switch = ({ isOn, handleToggle }) => {
       <label className={style.reactSwitchLabel} htmlFor={`react-switch-new`}>
         <span  className={style.reactSwitchButton}>{isOn ? 'Backend' : 'Frontend'} </span>
       </label>
-    </>
+    </div>
   );
 };
 

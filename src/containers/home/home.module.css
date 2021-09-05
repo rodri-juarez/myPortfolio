@@ -42,11 +42,12 @@
 .sectionTech {
   background-color: transparent;
   width: 100%;
-  height: 40vh;
+  height: 45vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  /* border: red solid 1px */
 }
 .sectionComments {
   background-color: transparent;
@@ -55,6 +56,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-bottom: 10vh;
+  margin-top: 10vh;
 }
 .hello {
   font-family: "Vast Shadow", cursive;

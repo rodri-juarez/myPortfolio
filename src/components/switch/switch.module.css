@@ -1,3 +1,18 @@
+
+.divContainer{
+  display: flex;
+  align-items: center;
+  height: 80px;
+ /*  border: red solid 1px */
+}
+.p{
+  height: 60px;
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+  font-size: 30px;
+  font-weight: 600;
+}
 .reactSwitchCheckbox {
     height: 0;
     width: 0;

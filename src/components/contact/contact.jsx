@@ -34,7 +34,7 @@ export default function Contact() {
           target="_blank"
           rel="noreferrer"
         >
-          <li className={style.listRight}>
+          <li className={style.list}>
             <IconContext.Provider
               value={{ color: "rgb(100, 100, 100)", size: "30px" }}
             >
