@@ -2,9 +2,6 @@ import React from "react";
 import style from "./switch.module.css";
 
 const Switch = ({ isOn, handleToggle }) => {
-  
-
-  
 
   return (
     <div className={style.divContainer}>
