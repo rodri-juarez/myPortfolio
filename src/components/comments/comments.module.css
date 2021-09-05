@@ -22,6 +22,7 @@
 }
 .infoDev {
   margin-left: 15px;
+  margin-top: 2px;
   height: 100%;
   display: flex;
   flex-direction: column;

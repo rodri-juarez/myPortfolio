@@ -13,7 +13,6 @@ export default function Comments() {
         </p>
         <div className={style.infoDevContainer}>
           <a
-            className={style.link}
             href="https://www.linkedin.com/in/andresvelasqueztrujillo/"
             target="_blank"
             rel="noreferrer"
@@ -39,7 +38,6 @@ export default function Comments() {
         </p>
         <div className={style.infoDevContainer}>
           <a
-            className={style.link}
             href="https://www.linkedin.com/in/facundo-bettella-iunnissi-dev/"
             target="_blank"
             rel="noreferrer"
