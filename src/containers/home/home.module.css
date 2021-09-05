@@ -47,7 +47,6 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  /* border: red solid 1px */
 }
 .sectionComments {
   background-color: transparent;
@@ -175,6 +174,8 @@
   }
   .sectionComments {
     height: 105vh;
+    margin-bottom:  0px;
+  margin-top: 0px;
   }
   .hello {
     font-size: 3rem;
