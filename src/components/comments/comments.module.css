@@ -131,3 +131,11 @@
     margin-top: 35px;
   }
 }
+
+@media screen and (min-width: 1600px) and (max-height: 1300px) {
+ .divContainer{
+   height: 80%;
+   margin-top: -4%;
+
+ }
+}

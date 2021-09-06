@@ -308,6 +308,7 @@
   }
   .sectionSkills {
     height: 42vh;
+    margin-top: -4%;
   }
   .developer {
     font-size: 6rem;
