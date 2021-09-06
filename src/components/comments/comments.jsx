@@ -6,10 +6,9 @@ export default function Comments() {
     <div className={style.divContainer}>
       <div className={style.div}>
         <p className={style.p}>
-          "My interests in many different fields has helped me to stay curious,
-          open and flexible this have been essential in the concepting of
-          solutions. My interests in many different fields has helped me to stay
-          curious."
+          "Rodrigo is a great developer. His desire to always learn something
+          new is contagious and pushes you to improve your skills. He really
+          loves what he does and it shows when you talk to him."
         </p>
         <div className={style.infoDevContainer}>
           <a
@@ -25,16 +24,18 @@ export default function Comments() {
           </a>
           <div className={style.infoDev}>
             <h4 className={style.pTitle}>Andres Trujillo</h4>
-            <p className={style.pDescription}>Full Stack Developer in Vita Wallet</p>
+            <p className={style.pDescription}>
+              Full Stack Developer in Vita Wallet
+            </p>
           </div>
         </div>
       </div>
       <div className={style.div}>
         <p className={style.p}>
-          "My interests in many different fields has helped me to stay curious,
-          open and flexible this have been essential in the concepting of
-          solutions. My interests in many different fields has helped me to stay
-          curious."
+          "One of the things that I highlight the most about Rodrigo is that he
+          is an excellent teammate, always ready to help you with whatever you
+          need. Programming with him helped me have better soft skills because
+          you constantly learn from their way of being."
         </p>
         <div className={style.infoDevContainer}>
           <a
@@ -50,7 +51,9 @@ export default function Comments() {
           </a>
           <div className={style.infoDev}>
             <h4 className={style.pTitle}>Facundo Bettella</h4>
-            <p className={style.pDescription}>Backend Developer in VU Security</p>
+            <p className={style.pDescription}>
+              Backend Developer in VU Security
+            </p>
           </div>
         </div>
       </div>

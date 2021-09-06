@@ -1,7 +1,7 @@
 import style from "./proyects.module.css";
 import { Splide, SplideSlide } from "@splidejs/react-splide";
 import "@splidejs/splide/dist/css/themes/splide-sea-green.min.css";
-
+import Button from "@material-ui/core/Button";
 export default function Proyects() {
   return (
     <ul className={style.ul}>
@@ -32,28 +32,51 @@ export default function Proyects() {
         </div>
         <div className={style.divDescription}>
           <p className={style.descriptionTitle}>Rocket Xchange</p>
-          <p>
-            {" "}
+          <p className={style.description}>
+            Exchange created on the Stellar blockchain. (www.stellar.org)
+          </p>
+          <div className={style.a}>
+            <a
+              href="https://github.com/andresf2448/Exchange-ProyectoFinal"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <Button
+                style={{
+                  background: "rgb(121, 121, 121)",
+                  color: "white",
+                  fontWeight:'400',
+                  fontSize: "12px",
+                  height: "35px",
+                  margin: "5px",
+                  borderRadius: "0px",
+                }}
+                variant="contained"
+              >
+                VIEW REPOSITORY
+              </Button>
+            </a>
             <a
               href="https://rocketxchange.vercel.app/"
               target="_blank"
               rel="noreferrer"
-              className={style.urlDeploy}
             >
-              {" "}
-              rocketxchange.vercel.app{" "}
+              <Button
+                style={{
+                  background: "rgb(121, 121, 121)",
+                  color: "white",
+                  fontWeight:'400',
+                  fontSize: "12px",
+                  height: "35px",
+                  margin: "5px",
+                  borderRadius: "0px",
+                }}
+                variant="contained"
+              >
+                VIEW WEB
+              </Button>
             </a>
-          </p>
-          <p className={style.description}>
-            Exchange created on the Stellar blockchain. (www.stellar.org)
-          </p>
-          <a
-            href="https://github.com/andresf2448/Exchange-ProyectoFinal"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <button className={style.button}>Go to repository</button>
-          </a>
+          </div>
         </div>
       </li>
       <li className={`${style.proyects} ${style.tracking}`}>
@@ -83,18 +106,6 @@ export default function Proyects() {
         </div>
         <div className={style.divDescription}>
           <p className={style.descriptionTitle}>Henry Videogames</p>
-          <p>
-            {" "}
-            <a
-              href="https://github.com/rodri-juarez/PI-Videogames-FT-13"
-              target="_blank"
-              rel="noreferrer"
-              className={style.urlDeploy}
-            >
-              {" "}
-              videogames-henry.vercel.app{" "}
-            </a>
-          </p>
           <p className={style.description}>
             Development of a SPA (Single Page Application) using React for Front
             End and Redux as state management.
@@ -104,7 +115,40 @@ export default function Proyects() {
             target="_blank"
             rel="noreferrer"
           >
-            <button className={style.button}>Go to repository</button>
+            <Button
+              style={{
+                background: "rgb(121, 121, 121)",
+                fontWeight:'400',
+                color: "white",
+                fontSize: "12px",
+                height: "35px",
+                margin: "5px",
+                borderRadius: "0px",
+              }}
+              variant="contained"
+            >
+              VIEW REPOSITORY
+            </Button>
+            <a
+              href="https://videogames-henry.vercel.app/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <Button
+                style={{
+                  background: "rgb(121, 121, 121)",
+                  color: "white",
+                  fontWeight:'400',
+                  fontSize: "12px",
+                  height: "35px",
+                  margin: "5px",
+                  borderRadius: "0px",
+                }}
+                variant="contained"
+              >
+                VIEW WEB
+              </Button>
+            </a>
           </a>
         </div>
       </li>

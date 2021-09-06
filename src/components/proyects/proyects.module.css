@@ -8,7 +8,6 @@
   margin-bottom: 3rem;
 }
 .proyects {
-
   width: 90%;
   height: 80%;
   display: flex;
@@ -34,12 +33,20 @@
   font-weight: bold;
 }
 .description {
-  /* border: red solid 1px; */
   display: flex;
   text-align: center;
 }
+.a{
+  display: flex;
+}
 .button {
-  font-weight: bold;
+ font-size: 1rem;
+  height: 35px;
+  width: 150px;
+  margin: 5px;
+  color: white;
+  background:rgb(121, 121, 121);
+  border: none;
 }
 
 .urlDeploy {
