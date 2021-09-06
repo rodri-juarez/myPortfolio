@@ -300,3 +300,25 @@
     margin-bottom: -5%;
   }
 }
+
+@media screen and (min-width: 1600px) and (max-height: 1300px) {
+  .sectionTech {
+    height: 170%;
+    margin-bottom: 5%;
+  }
+  .sectionSkills {
+    height: 42vh;
+  }
+  .developer {
+    font-size: 6rem;
+    height: 12vh;
+    margin-top: 1%;
+  }
+}
+@media screen and (min-width: 800px) and (max-width: 1600px) and (min-height: 900px) {
+  .sectionTech {
+    height: 170%;
+    margin-bottom: 4%;
+   
+  }
+}
