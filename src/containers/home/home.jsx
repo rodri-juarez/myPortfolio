@@ -23,7 +23,9 @@ export default function Home() {
         <p className={`${style.stack}  ${style.tracking}`}>Stack</p>
         <p className={`${style.developer}  ${style.tracking}`}>DEVELOPER</p>
       </section>
+      <section className={style.sectionSkills}>
       <Skills />
+      </section>
       <section className={style.sectionTech}>
         <Switch isOn={isOn}
         handleToggle={() => setIsOn(!isOn)}
