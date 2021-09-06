@@ -67,7 +67,7 @@
 
 @media screen and (min-width: 1600px) and (max-height: 1300px) {
   .div{
-    height: 38vh;
+    height: 40vh;
   }
   .img1, .img2, .img3 {
     height: 380px;
