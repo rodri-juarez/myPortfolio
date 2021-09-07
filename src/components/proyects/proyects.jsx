@@ -42,14 +42,15 @@ export default function Proyects() {
               rel="noreferrer"
             >
               <Button
+              className={style.button}
                 style={{
-                  background: "rgb(121, 121, 121)",
-                  color: "white",
                   fontWeight:'400',
                   fontSize: "12px",
                   height: "35px",
                   margin: "5px",
                   borderRadius: "0px",
+                  background: '#8458B3',
+                  color:'white'
                 }}
                 variant="contained"
               >
@@ -62,14 +63,15 @@ export default function Proyects() {
               rel="noreferrer"
             >
               <Button
+                className={style.button}
                 style={{
-                  background: "rgb(121, 121, 121)",
-                  color: "white",
                   fontWeight:'400',
                   fontSize: "12px",
                   height: "35px",
                   margin: "5px",
                   borderRadius: "0px",
+                  background: '#8458B3',
+                  color:'white'
                 }}
                 variant="contained"
               >
@@ -116,14 +118,15 @@ export default function Proyects() {
             rel="noreferrer"
           >
             <Button
+              className={style.button}
               style={{
-                background: "rgb(121, 121, 121)",
                 fontWeight:'400',
-                color: "white",
                 fontSize: "12px",
                 height: "35px",
                 margin: "5px",
                 borderRadius: "0px",
+                background: '#8458B3',
+                color:'white'
               }}
               variant="contained"
             >
@@ -135,14 +138,15 @@ export default function Proyects() {
               rel="noreferrer"
             >
               <Button
+                className={style.button}
                 style={{
-                  background: "rgb(121, 121, 121)",
-                  color: "white",
                   fontWeight:'400',
                   fontSize: "12px",
                   height: "35px",
                   margin: "5px",
                   borderRadius: "0px",
+                  background: '#8458B3',
+                  color:'white'
                 }}
                 variant="contained"
               >

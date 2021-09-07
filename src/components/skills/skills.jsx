@@ -6,7 +6,7 @@ export default function Skills() {
       <div className={style.div}>
         <div className={style.img1}></div>
         <hr className={style.hr}></hr>
-        <p className={style.p}>Responsive Design</p>
+        <p className={style.p}>RESPONSIVE DESING</p>
         <p className={style.text}>
           I have developed a personal approach to testing different solutions on
           browsers / mobile devices.
@@ -15,7 +15,7 @@ export default function Skills() {
       <div className={style.div}>
         <div className={style.img2}></div>
         <hr className={style.hr}></hr>
-        <p className={style.p}>Logical Solutions</p>
+        <p className={style.p}>LOGICAL SOLUTIONS</p>
         <p className={style.text}>
           My interests in many different fields has helped me to stay curious,
           open and flexible this have been essential in the concepting of
@@ -25,7 +25,7 @@ export default function Skills() {
       <div className={style.div}>
         <div className={style.img3}></div>
         <hr className={style.hr}></hr>
-        <p className={style.p}>Clean Code</p>
+        <p className={style.p}>CLEAN CODE</p>
         <p className={style.text}>
           I apply simple techniques that facilitate the writing and reading of a
           code, making it easier to understand.

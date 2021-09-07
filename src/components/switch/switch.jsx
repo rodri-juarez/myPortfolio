@@ -14,7 +14,7 @@ const Switch = ({ isOn, handleToggle }) => {
         type="checkbox"
       />
       <label className={style.reactSwitchLabel} htmlFor={`react-switch-new`}>
-        <span  className={style.reactSwitchButton}>{isOn ? 'Backend' : 'Frontend'} </span>
+        <span  className={style.reactSwitchButton}>{isOn ? 'BACKEND' : 'FRONTEND'} </span>
       </label>
     </div>
   );

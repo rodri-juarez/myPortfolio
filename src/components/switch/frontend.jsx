@@ -8,7 +8,7 @@ export default function Frontend() {
       <ul className={style.ul}>
         <li className={style.list}>
           <IconContext.Provider
-            value={{ color: "rgb(100, 100, 100)", size: "45px" }}
+            value={{ color: "#8458B3", size: "45px" }}
           >
             <SiJavascript />
           </IconContext.Provider>
@@ -16,7 +16,7 @@ export default function Frontend() {
         </li>
         <li className={style.list}>
           <IconContext.Provider
-            value={{ color: "rgb(100, 100, 100)", size: "45px" }}
+            value={{ color: "#8458B3", size: "45px" }}
           >
             <FaReact />
           </IconContext.Provider>
@@ -24,7 +24,7 @@ export default function Frontend() {
         </li>
         <li className={style.list}>
           <IconContext.Provider
-            value={{ color: "rgb(100, 100, 100)", size: "44px" }}
+            value={{ color: "#8458B3", size: "44px" }}
           >
             <SiRedux />
           </IconContext.Provider>
@@ -32,7 +32,7 @@ export default function Frontend() {
         </li>
         <li className={style.list}>
           <IconContext.Provider
-            value={{ color: "rgb(100, 100, 100)", size: "44px" }}
+            value={{ color: "#8458B3", size: "44px" }}
           >
             <SiMaterialUi />
           </IconContext.Provider>
@@ -40,7 +40,7 @@ export default function Frontend() {
         </li>
         <li className={style.list}>
           <IconContext.Provider
-            value={{ color: "rgb(100, 100, 100)", size: "45px" }}
+            value={{ color: "#8458B3", size: "45px" }}
           >
             <SiCss3 />
           </IconContext.Provider>

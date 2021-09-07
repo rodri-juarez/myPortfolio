@@ -38,15 +38,17 @@
 }
 .a{
   display: flex;
+ 
 }
 .button {
- font-size: 1rem;
+ font-size: 0.8rem;
   height: 35px;
   width: 150px;
   margin: 5px;
-  color: white;
-  background:rgb(121, 121, 121);
-  border: none;
+  color: #f5f5f5;
+  border: #494D5F solid 1px;
+  border-radius: 0px;
+  
 }
 
 .urlDeploy {

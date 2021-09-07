@@ -6,7 +6,7 @@ import { SiGmail } from "react-icons/si";
 export default function Contact() {
   return (
     <div className={`${style.main} ${style.tracking}`}>
-      <h1 className={style.h1}>Get in touch!</h1>
+      <h1 className={style.h1}>Lets get in touch!</h1>
 
       <ul className={style.ul}>
         <a
@@ -23,7 +23,7 @@ export default function Contact() {
         >
           <li className={style.list}>
             <IconContext.Provider
-              value={{ color: "rgb(100, 100, 100)", size: "30px" }}
+              value={{ color: "#494D5F", size: "50px" }}
             >
               <GrLinkedin />
             </IconContext.Provider>
@@ -36,7 +36,7 @@ export default function Contact() {
         >
           <li className={style.list}>
             <IconContext.Provider
-              value={{ color: "rgb(100, 100, 100)", size: "30px" }}
+              value={{ color: "#494D5F", size: "50px" }}
             >
               <SiGmail />
             </IconContext.Provider>

@@ -20,10 +20,10 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  font-size: 13px;
-  font-family: "brandon-grotesque", Arial, Helvetica, sans-serif;
+  font-size: 1.3rem;
+  font-family: 'Bebas Neue', cursive;
   font-style: normal;
-  font-weight: 700;
+  font-weight: 500;
 }
 
 .link {
