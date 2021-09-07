@@ -30,7 +30,7 @@ export default function Contact() {
           </li>
         </a>
         <a
-          href="mailto:juarezr100@gmail.com@gmail.com"
+          href="mailto:juarezr100@gmail.com"
           target="_blank"
           rel="noreferrer"
         >

@@ -11,7 +11,7 @@ export default function Navbar() {
             activeClassName={style.linkActive}
             className={style.link}
           >
-            PROYECTS
+            PROJECTS
             <hr></hr>
           </NavLink>
         </li>
