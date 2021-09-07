@@ -8,7 +8,12 @@
   flex-direction: column;
   align-items: center;
   border: rgb(121,121,121) solid 3px;
+  transition: 1s;
 }
+/* .div:hover{
+  transform:scale(1.1);
+  border: #587FFC solid 3px;
+} */
 .img1 {
   height: 150px;
   margin-bottom: 1rem;

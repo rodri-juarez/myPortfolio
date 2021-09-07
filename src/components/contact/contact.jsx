@@ -10,7 +10,7 @@ export default function Contact() {
 
       <ul className={style.ul}>
         <a
-          href="https://drive.google.com/file/d/11jEEsPSd-KgkNZgkdVCsUv9_eVUWYmP5/view?usp=sharing"
+          href="https://drive.google.com/uc?id=11jEEsPSd-KgkNZgkdVCsUv9_eVUWYmP5&export=download"
           target="_blank"
           rel="noreferrer"
         >
