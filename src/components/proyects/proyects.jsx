@@ -49,7 +49,7 @@ export default function Proyects() {
                   height: "35px",
                   margin: "5px",
                   borderRadius: "0px",
-                  background: '#8458B3',
+                  background: '#4365d6',
                   color:'white'
                 }}
                 variant="contained"
@@ -70,7 +70,7 @@ export default function Proyects() {
                   height: "35px",
                   margin: "5px",
                   borderRadius: "0px",
-                  background: '#8458B3',
+                  background: '#4365d6',
                   color:'white'
                 }}
                 variant="contained"
@@ -125,7 +125,7 @@ export default function Proyects() {
                 height: "35px",
                 margin: "5px",
                 borderRadius: "0px",
-                background: '#8458B3',
+                background: '#4365d6',
                 color:'white'
               }}
               variant="contained"
@@ -145,7 +145,7 @@ export default function Proyects() {
                   height: "35px",
                   margin: "5px",
                   borderRadius: "0px",
-                  background: '#8458B3',
+                  background: '#4365d6',
                   color:'white'
                 }}
                 variant="contained"

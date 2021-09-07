@@ -9,24 +9,24 @@ export default function Backend() {
     <div className={style.divContainer}>
       <ul className={style.ul}>
         <li className={style.list}>
-        <Icon icon="simple-icons:express" color="#8458B3" width="45" height="45" />
+        <Icon icon="simple-icons:express" color="#4365d6" width="45" height="45" />
         <span style={{ marginTop: "5px" }}>Express.js</span> 
         </li>
         <li className={style.list}>
           <IconContext.Provider
-            value={{ color: "#8458B3", size: "48px" }}
+            value={{ color: "#4365d6", size: "48px" }}
           >
             <IoLogoNodejs />
           </IconContext.Provider>
           <span style={{ marginTop: "5px" }}>Node</span>
         </li>
         <li className={style.list}>
-        <Icon icon="simple-icons:supabase" color="#8458B3" width="45" height="45" />
+        <Icon icon="simple-icons:supabase" color="#4365d6" width="45" height="45" />
           <span style={{ marginTop: "5px" }}>Supabase</span>
         </li>
         <li className={style.list}>
           <IconContext.Provider
-            value={{ color: "#8458B3", size: "43px" }}
+            value={{ color: "#4365d6", size: "43px" }}
           >
             <SiPostgresql />
           </IconContext.Provider>
@@ -34,12 +34,12 @@ export default function Backend() {
         </li>
 
         <li className={style.list}>
-          <Icon icon="simple-icons:sequelize" color="#8458B3" width="45" height="45" />
+          <Icon icon="simple-icons:sequelize" color="#4365d6" width="45" height="45" />
           <span style={{ marginTop: "5px" }}>Sequelize</span>
         </li>
         <li className={style.list}>
           <IconContext.Provider
-            value={{ color: "#8458B3", size: "45px" }}
+            value={{ color: "#4365d6", size: "45px" }}
           >
             <SiSocketDotIo />
           </IconContext.Provider>

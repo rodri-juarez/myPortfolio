@@ -8,8 +8,8 @@
 }
 
 .main {
-  width: 50%;
-  margin-left: 25%;
+  width: 70%;
+  margin-left: 15%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -31,16 +31,16 @@ a {
   height: 90px;
   width: 90px;
   padding: 10px;
-  border: rgb(121, 121, 121) solid 7px;
+  border: #031242 solid 5px;
   border-radius: 90px;
-  color: #494D5F;
+  color: #2845a5;
   font-family: 'Bebas Neue', cursive;
   font-weight: 500;
   font-size: 3rem;
 }
 
 .list:hover {
-  border: #494D5F solid 7px;
+  border: #2845a5 solid 5px;
 }
 .listRight:hover {
   border: black solid 5px;
