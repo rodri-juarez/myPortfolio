@@ -100,7 +100,7 @@
     margin-left: 0%;
   }
   .link {
-    font-size: 10px;
+    font-size: 1rem;
   }
 }
 
@@ -119,6 +119,7 @@
     width: 25%;
   }
   .link {
+
     width: 25vw;
   }
 }
@@ -138,6 +139,6 @@
   }
   .link {
     width: 25vw;
-    font-size: 10px;
+    font-size: 1rem;
   }
 }
