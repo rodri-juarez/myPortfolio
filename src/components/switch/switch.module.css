@@ -2,14 +2,17 @@
   display: flex;
   align-items: center;
   height: 80px;
+  margin-bottom: 2%;
 }
 .p {
-  height: 60px;
+  font-family: 'Bebas Neue', cursive;
+  font-weight: bold;
+  height: 55%;
   display: flex;
   align-items: center;
   margin-right: 10px;
-  font-size: 30px;
-  font-weight: 600;
+  font-size: 3rem;
+
 }
 .reactSwitchCheckbox {
   height: 0;
@@ -61,7 +64,7 @@
   .divContainer {
     display: flex;
     flex-direction: column;
-    height: 30vh;
+    height: 35vh;
     width: 90%;
   }
   .p {
@@ -72,7 +75,7 @@
   .divContainer {
     display: flex;
     flex-direction: column;
-    height: 35vh;
+    height: 40vh;
     width: 90%;
   }
   .p {

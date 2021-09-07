@@ -15,13 +15,13 @@ export default function Home() {
         <p className={`${style.hello}  ${style.tracking}`}>Hi, i'm </p>{" "}
       </section>
       <section className={style.sectionName}>
-        <p className={`${style.rodrigo}  ${style.tracking}`}>RODRIGO</p>{" "}
-        <p className={`${style.juarez}  ${style.tracking}`}>Juarez.</p>
+        <p className={`${style.rodrigo}  ${style.tracking}`}>RODRIGO JUAREZ</p>{" "}
+        {/* <p className={`${style.rodrigo}  ${style.tracking}`}>JUAREZ</p> */}
       </section>
       <section className={style.sectionJob}>
-        <p className={`${style.full}  ${style.tracking}`}>Full</p>
-        <p className={`${style.stack}  ${style.tracking}`}>Stack</p>
-        <p className={`${style.developer}  ${style.tracking}`}>DEVELOPER</p>
+        <p className={`${style.full}  ${style.tracking}`}>Full Stack DEVELOPER</p>
+        {/* <p className={`${style.stack}  ${style.tracking}`}>Stack</p>
+        <p className={`${style.developer}  ${style.tracking}`}>DEVELOPER</p> */}
       </section>
       <section className={style.sectionSkills}>
       <Skills />

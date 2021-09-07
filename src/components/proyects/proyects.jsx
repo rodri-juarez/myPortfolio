@@ -17,16 +17,16 @@ export default function Proyects() {
             }}
           >
             <SplideSlide>
-              <img style={{height:'90%', width:'90%'}} src="https://i.ibb.co/H2nbqP5/Untitled.png" alt="" />
+              <img style={{height:'100%', width:'100%'}} src="https://i.ibb.co/H2nbqP5/Untitled.png" alt="" />
             </SplideSlide>
             <SplideSlide>
-              <img style={{height:'90%', width:'90%'}} src="https://i.ibb.co/THzQxsQ/criptos.png" alt="" />
+              <img style={{height:'100%', width:'100%'}} src="https://i.ibb.co/THzQxsQ/criptos.png" alt="" />
             </SplideSlide>
             <SplideSlide>
-              <img style={{height:'90%', width:'90%'}} src="https://i.ibb.co/qprycvg/trade.png" alt="" />
+              <img style={{height:'100%', width:'100%'}} src="https://i.ibb.co/qprycvg/trade.png" alt="" />
             </SplideSlide>
             <SplideSlide>
-              <img style={{height:'90%', width:'90%'}} src="https://i.ibb.co/BCtt9mw/wallet.png" alt="" />
+              <img style={{height:'100%', width:'100%'}} src="https://i.ibb.co/BCtt9mw/wallet.png" alt="" />
             </SplideSlide>
           </Splide>
         </div>
@@ -91,16 +91,16 @@ export default function Proyects() {
             }}
           >
             <SplideSlide>
-              <img style={{height:'90%', width:'90%'}} src="https://i.ibb.co/8Kfn4fG/henry-videogames.png" alt="" />
+              <img style={{height:'100%', width:'100%'}} src="https://i.ibb.co/8Kfn4fG/henry-videogames.png" alt="" />
             </SplideSlide>
             <SplideSlide>
-              <img style={{height:'90%', width:'90%'}} src="https://i.ibb.co/SsMHs2N/initial-Page.png" alt="" />
+              <img style={{height:'100%', width:'100%'}} src="https://i.ibb.co/SsMHs2N/initial-Page.png" alt="" />
             </SplideSlide>
             <SplideSlide>
-              <img style={{height:'90%', width:'90%'}} src="https://i.ibb.co/FzmGyq8/create-Videogame.png" alt="" />
+              <img style={{height:'100%', width:'100%'}} src="https://i.ibb.co/FzmGyq8/create-Videogame.png" alt="" />
             </SplideSlide>
             <SplideSlide>
-              <img style={{height:'90%', width:'90%'}}  src="https://i.ibb.co/7WrLhsH/game-Detail.png" alt="" />
+              <img style={{height:'100%', width:'100%'}}  src="https://i.ibb.co/7WrLhsH/game-Detail.png" alt="" />
             </SplideSlide>
           </Splide>
         </div>

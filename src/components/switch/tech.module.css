@@ -14,9 +14,9 @@
   height: 85px;
   width: 85px;
   padding: 10px;
-  border: rgb(121, 121, 121) solid 5px;
+  border: rgb(100, 100, 100) solid 5px;
   border-radius: 80px;
-  color: rgb(121, 121, 121);
+  color: rgb(80, 80, 80);
   font-weight: bold;
   font-size: 13px;
   display: flex;
