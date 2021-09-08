@@ -2,7 +2,7 @@ import style from "./skills.module.css";
 
 export default function Skills() {
   return (
-    <div className={style.divContainer}>
+    <div className={`${style.divContainer} ${style.tracking}`}>
       <div className={style.title}>I’M SPECIALISED IN</div>
       <div className={style.divCards}>
         <div className={style.div}>
