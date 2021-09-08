@@ -68,6 +68,7 @@
   .divContainer{
     flex-direction: row;
     height:80px ; 
+    margin-bottom: 25px;
   }
   .p{
     width: 20%;
