@@ -13,21 +13,22 @@ export default function About() {
       </div>
       <div className={style.activity}>
         <div className={style.p}>
-          Soy desarrollador full stack viviendo actualmente en
-          Misiones/Argentina. Me encantan los desafios, la adrenalina de tener
-          que lograrlo si o si y la satisfaccion de conseguirlo.
+        <strong>ABOUT ME</strong> 
+        <br></br>
+          <br></br>
+          I am a full stack developer currently living in Misiones/Argentina. 
+          <strong>I love challenges</strong> , learning new things and deliver
+          quality work.
           <br></br>
           <br></br>
-          Cuando no estoy
-          codeando hago cosas como...
+          When i'm not coding I do things like ...
           <br></br>
           <br></br>
-          <strong>Caminatas!</strong> Me encanta caminar al aire libre y poder
-          pensar en mis cosas, me ayuda a enfocarme y volver al ruedo al 100%
+          <strong>Walking!</strong> I love walking outdoors and being able to
+          think about my things, it helps me focus and get back on track 100%
           <br></br>
           <br></br>
-          <strong>Escuchar musica!</strong> Rock, pop etc... mis playlists son
-          una ensalada rusa, y no tengo problemas con eso :)
+          <strong>Listening music!</strong> Rock, pop etc... I'm open minded. 
         </div>
       </div>
     </div>
