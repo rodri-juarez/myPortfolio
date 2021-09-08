@@ -57,7 +57,11 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-bottom: 30vh;
+  margin-bottom: 10vh;
+}
+.sectionAbout {
+  height: 55vh;
+  margin-bottom: 11rem;
 }
 .sectionComments {
   background-color: transparent;
@@ -79,7 +83,6 @@
   font-family: "Bebas Neue", cursive;
   font-size: 10rem;
   margin: 1.5rem;
-  
 }
 
 .juarez {
@@ -94,8 +97,8 @@
   margin: 1rem 0.5rem auto 1rem;
   display: flex;
   justify-content: center;
-  color: #587FFC;
-  -webkit-text-stroke: 2px #1E1E5D;
+  color: #587ffc;
+  -webkit-text-stroke: 2px #1e1e5d;
 }
 .stack {
   font-family: "Black Ops One", cursive;
@@ -352,19 +355,24 @@
   }
 }
 
-
 @media screen and (min-width: 1600px) and (max-height: 1300px) {
   .sectionTech {
     height: 170%;
-    margin-bottom: 4%;
+    margin-bottom: 5%;
   }
   .sectionSkills {
     height: 42vh;
     margin-top: -3%;
     margin-bottom: 6%;
   }
+  .sectionAbout {
+    height: 40vh;
+  }
+  .sectionComments {
+    margin-top: -6%;
+  }
   .rodrigo {
-    font-size: 15rem;
+    font-size: 16rem;
     margin-top: 1%;
   }
   .hello {

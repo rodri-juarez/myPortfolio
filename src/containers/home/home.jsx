@@ -6,6 +6,8 @@ import Switch from "../../components/switch/switch";
 import Frontend from '../../components/switch/frontend';
 import Backend from "../../components/switch/backend";
 import Comments from "../../components/comments/comments";
+import About from "../../components/about/about";
+
 export default function Home() {
   const [isOn, setIsOn] = useState(true);
 
@@ -31,6 +33,9 @@ export default function Home() {
         handleToggle={() => setIsOn(!isOn)}
          />
          {!isOn ? <Frontend />: <Backend />}
+      </section>
+      <section className={style.sectionAbout}>
+        <About />
       </section>
       <section className={style.sectionComments}>
         <Comments />

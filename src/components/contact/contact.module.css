@@ -31,7 +31,7 @@ a {
   height: 90px;
   width: 90px;
   padding: 10px;
-  border: #031242 solid 5px;
+  border: #031242 solid 2px;
   border-radius: 90px;
   color: #2845a5;
   font-family: 'Bebas Neue', cursive;
@@ -40,7 +40,7 @@ a {
 }
 
 .list:hover {
-  border: #2845a5 solid 5px;
+  border: #2845a5 solid 2px;
 }
 .listRight:hover {
   border: black solid 5px;

@@ -7,23 +7,23 @@ export default function Navbar() {
       <ul className={style.ul}>
         <li className={`${style.li}  ${style.tracking}`}>
           <NavLink
-            to="/Proyects"
-            activeClassName={style.linkActive}
-            className={style.link}
-          >
-            PROJECTS
-            <hr></hr>
-          </NavLink>
-        </li>
-        <li className={`${style.li}  ${style.tracking}`}>
-          <NavLink
             exact
             to="/"
             replace
             activeClassName={style.linkActive}
             className={style.link}
           >
-            ABOUT ME
+            HOME
+            <hr></hr>
+          </NavLink>
+        </li>
+        <li className={`${style.li}  ${style.tracking}`}>
+          <NavLink
+            to="/Proyects"
+            activeClassName={style.linkActive}
+            className={style.link}
+          >
+            PROJECTS
             <hr></hr>
           </NavLink>
         </li>

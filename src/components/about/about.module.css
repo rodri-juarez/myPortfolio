@@ -1,0 +1,51 @@
+.divContainer {
+  height: 90%;
+  width: 75%;
+  margin-left: 12.5%;
+  display: flex;
+  justify-content: center;
+}
+.div {
+  height: 100%;
+  width: 45%;
+}
+.img {
+  height: 100%;
+  width: 100%;
+  border: #494D5F solid 1px;
+}
+.activity {
+  display: flex;
+  width: 52%;
+
+  align-items: center;
+  height: 100%;
+  margin-left: 3%;
+}
+.p {
+  width: 90%;
+  margin: 1rem;
+  text-align: left;
+  font-weight: 500;
+}
+
+@media screen and (max-width: 540px) {
+  .divContainer {
+    flex-direction: column;
+  }
+  .div {
+    height: 50%;
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+  .activity {
+    height: 50%;
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 1600px) and (max-height: 1300px) {
+  .p {
+    font-size: 1.3rem;
+  }
+}
