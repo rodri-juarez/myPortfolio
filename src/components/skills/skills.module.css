@@ -30,7 +30,6 @@
   flex-direction: column;
   align-items: center;
   border: rgb(121, 121, 121) solid 2px;
-  transition: 1s;
 }
 
 .img1 {
@@ -96,7 +95,7 @@
     flex-direction: row;
     width: 100%;
   }
-  .p{
+  .p {
     font-size: 1.2rem;
   }
   .img1,
@@ -109,7 +108,6 @@
 @media screen and (min-width: 1800px) {
   .divContainer {
     height: 40vw;
-    
   }
   .title {
     width: 96.3%;
@@ -120,7 +118,7 @@
   .div {
     border: rgb(121, 121, 121) solid 3px;
   }
-  .p{
+  .p {
     font-size: 1.8rem;
   }
   .img1,
@@ -129,8 +127,14 @@
     height: 300px;
     width: 100%;
   }
-  .text{
+  .text {
     font-size: 1.4rem;
+  }
+}
+
+@media screen and (max-width: 340px) {
+  .divContainer {
+    height: 370vw;
   }
 }
 /* @media screen and (max-width: 540px) {

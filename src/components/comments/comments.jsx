@@ -52,7 +52,7 @@ export default function Comments() {
               <p className={style.p}>
                 "One of the things that i highlight the most about Rodrigo is
                 that he is an excellent teammate, always ready to help you with
-                whatever you need. Programming with him i learned a lot off soft
+                whatever you need. Programming with him i learned a lot of soft
                 skills.
               </p>
               <div className={style.infoDevContainer}>

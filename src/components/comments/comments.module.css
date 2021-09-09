@@ -5,10 +5,9 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 3%;
+  margin: 1%;
   border: #494d5f solid 2px;
 }
-
 .divContainer {
   display: flex;
   flex-direction: column;

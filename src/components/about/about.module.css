@@ -29,7 +29,7 @@
   font-weight: 400;
 }
 
-@media screen and (min-width: 360px) {
+@media screen and (min-width: 370px) {
   .divContainer {
     height: 180vw;
   }
