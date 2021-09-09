@@ -6,7 +6,6 @@ export default function Proyects() {
   return (
     <ul className={style.ul}>
       <li className={`${style.proyects} ${style.tracking}`}>
-      {window.innerWidth <  600 && <p className={style.descriptionTitleMobile}>Rocket Xchange</p> }
         <div className={style.divCarousel}>
           <Splide
             options={{
@@ -48,7 +47,7 @@ export default function Proyects() {
           </Splide>
         </div>
         <div className={style.divDescription}>
-        <p className={style.descriptionTitle}>Rocket Xchange</p>
+        <p className={style.descriptionTitleMobile}>Rocket Xchange</p>
           <p className={style.description}>
             Platform that allows users to connect to the Stellar blockchain
             where they can exchange their assets for any other class of
@@ -150,7 +149,7 @@ export default function Proyects() {
           </Splide>
         </div>
         <div className={style.divDescription}>
-        {window.innerWidth >  600 && <p className={style.descriptionTitle}>Henry Videogames</p> }
+        <p className={style.descriptionTitleMobile}>Henry Videogames</p> 
           <p className={style.description}>
             Development of a SPA (Single Page Application) using React for
             frontend and Redux as state management.
