@@ -49,6 +49,7 @@
 
 .avatar {
   border: #494d5f solid 2px;
+  margin-bottom: 10px;
 }
 .pTitle {
   height: 25px;
@@ -82,6 +83,9 @@
     justify-content: center;
     text-align: start;
     margin-left: 10px;
+  }
+  .avatar{
+    margin-bottom: 10px;
   }
 }
 @media screen and (min-width: 1800px) {
