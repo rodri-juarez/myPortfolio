@@ -1,6 +1,175 @@
 :root {
   background-color: #f5f5f5;
   font-family: "brandon-grotesque", Arial, Helvetica, sans-serif;
+  margin-block-start: 0px;
+  margin-block-end: 0px;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 0px;
+}
+.sectionWelcome {
+  height: 50vw;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 4vw;
+  margin-bottom: 10vw;
+}
+.hello {
+  display: flex;
+  justify-content: center;
+  font-family: "Bebas Neue", cursive;
+  font-size: 2.3rem;
+  font-weight: 500;
+  margin-block-start: 0px;
+  margin-block-end: 0px;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 0px;
+  margin: 5px;
+}
+.name {
+  height: 10vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Bebas Neue", cursive;
+  font-size: 3.5rem;
+  font-weight: 500;
+  margin-block-start: 0px;
+  margin-block-end: 0px;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 0px;
+  margin: 5px;
+}
+.job {
+  display: flex;
+  justify-content: center;
+  font-family: "Bebas Neue", cursive;
+  font-size: 1.8rem;
+  color: #587ffc;
+  -webkit-text-stroke: 0.7px #1e1e5d;
+  margin: 5px;
+}
+.sectionName {
+  height: 30vw;
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  margin-left: 10%;
+  margin-bottom: 2rem;
+}
+.sectionTech {
+  width: 100%;
+  height: 220vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.sectionAbout {
+  height: 210vw;
+  margin-top: 20px;
+}
+.sectionComments {
+  width: 100%;
+  height: 80vh;
+  margin-bottom: 30px;
+  margin-top: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btn {
+  font-weight: bold;
+  height: 35%;
+  width: 160px;
+  border: 1px solid rgba(255, 255, 255, 0.4);
+}
+.link {
+  width: 100%;
+  height: 100%;
+  color: black;
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 1rem;
+}
+.contact {
+  height: 25vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+}
+
+
+@media screen and (min-width: 330px) {
+  .sectionAbout {
+    height: 200vw;
+    margin-bottom: 0px;
+  }
+  .sectionTech {
+    margin-top: 25px;
+  }
+}
+@media screen and (min-width: 370px) {
+  .hello {
+    font-size: 2.6rem;
+  }
+  .name {
+    font-size: 4.2rem;
+  }
+  .job {
+    font-size: 2.2rem;
+  }
+  .sectionTech {
+    height: 170vw;
+  }
+  .sectionAbout {
+    height: 163vw;
+    margin-bottom: 0px;
+  }
+}
+@media screen and (min-width: 1000px) {
+  .sectionWelcome {
+    height: 67vh;
+  }
+  .hello {
+    font-size: 7rem;
+  }
+  .name {
+    font-size: 11rem;
+    margin: 1rem;
+  }
+  .job {
+    font-size: 5rem;
+    -webkit-text-stroke: 3px #1e1e5d;
+  }
+  .sectionTech{
+    height: 50vh;
+  }
+  .sectionAbout {
+    height: 70vh;
+    align-items: center;
+  }
+  .sectionComments{
+    height: 55vh;
+  }
+
+}
+/* .sectionWelcome {
+  background-color: transparent;
+  height: 15vh;
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  margin-left: 35%;
+  margin-top: 3%;
 }
 
 .link {
@@ -15,15 +184,6 @@
   font-size: 1rem;
 }
 
-.sectionWelcome {
-  background-color: transparent;
-  height: 15vh;
-  width: 30%;
-  display: flex;
-  justify-content: center;
-  margin-left: 35%;
-  margin-top: 3%;
-}
 .sectionName {
   background-color: transparent;
   height: 30vh;
@@ -63,14 +223,7 @@
   height: 55vh;
   margin-bottom: 11rem;
 }
-.sectionComments {
-  background-color: transparent;
-  width: 100%;
-  height: 40vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
+
 .hello {
   font-family: "Bebas Neue", cursive;
   font-size: 5.5rem;
@@ -127,11 +280,11 @@
   width: 160px;
   border: 1px solid rgba(255, 255, 255, 0.4);
 }
+*/
 .tracking {
   -webkit-animation: tracking 1.3s cubic-bezier(0.215, 0.61, 0.355, 1) both;
   animation: tracking 1.3s cubic-bezier(0.215, 0.61, 0.355, 1) both;
 }
-
 @-webkit-keyframes tracking {
   0% {
     letter-spacing: -0.5em;
@@ -165,7 +318,7 @@
   }
 }
 
-@media screen and (max-width: 540px) {
+/* @media screen and (max-width: 540px) {
   .sectionAbout {
     height: 120vh;
     margin-bottom: 3rem;
@@ -499,3 +652,4 @@
     margin-bottom: 4%;
   }
 }
+ */

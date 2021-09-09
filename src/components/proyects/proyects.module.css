@@ -1,25 +1,38 @@
 .ul {
-  height: 140vh;
-  width: 97%;
+  height: 100%;
+  width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
+  margin-block-start: 0px;
+  margin-block-end: 0px;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 0px;
   margin-bottom: 3rem;
 }
 .proyects {
   width: 90%;
-  height: 80%;
+  height: 100%;
   display: flex;
+  flex-direction: column;
   justify-content: flex-start;
+
+  margin: 1rem;
+}
+.hr {
+  margin-top: 50px;
+  width: 70%;
+  display: flex;
+  flex-direction: column;
 }
 .divCarousel {
-  width: 65%;
+  width: 100%;
 }
 
 .divDescription {
-  margin: 2rem;
-  width: 35%;
+  width: 100%;
   height: 85%;
   display: flex;
   flex-direction: column;
@@ -29,31 +42,39 @@
 .descriptionTitle {
   display: flex;
   text-align: center;
-  font-size: 1.5rem;
+  font-family: "Bebas Neue", cursive;
+  font-size: 2rem;
   font-weight: bold;
+  
+}
+.descriptionTitleMobile{
+  font-family: "Bebas Neue", cursive;
+  font-size: 2.2rem;
+  font-weight: 500;
+  height: 10vh;
+  margin-bottom: 0%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 0%;
 }
 .description {
   display: flex;
   text-align: center;
   width: 90%;
 }
-.a{
+.a {
   display: flex;
- 
 }
 .button {
- font-size: 0.8rem;
+  font-size: 0.8rem;
   height: 35px;
-  width: 150px;
-  margin: 5px;
+  width: 120px;
   color: #f5f5f5;
-  border: #494D5F solid 1px;
+  border: #494d5f solid 1px;
   border-radius: 0px;
   background: #4365d6;
-}
-
-.urlDeploy {
-  color: black;
+  margin: 5px;
 }
 
 .tracking {
@@ -94,6 +115,28 @@
   }
 }
 
+@media screen and (min-width: 1000px) {
+
+  .divCarousel {
+    height: 70%;
+    width: 70%;
+  }
+  .button {
+    font-size: 1rem;
+    height: 40px;
+    width: 150px;
+    margin: 10px;
+  }
+  .description{
+    width: 70%;
+  }
+  .a{
+    margin-top: 20px;
+  }
+}
+
+
+/* 
 @media screen and (max-width: 540px) {
   .ul {
     width: 100%;
@@ -115,11 +158,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
-
   }
   .proyects {
     width: 95%;
-    height: 130vh;
+    height: 135vh;
     flex-direction: column;
     border: #494D5F solid 1px;
     margin: 1rem
@@ -135,7 +177,7 @@
   .divDescription {
     width: 100%;
     margin: 0%;
-    margin-top: -10%;
+    margin-top: 0%;
     justify-content: start;
   }
   .button{
@@ -166,4 +208,4 @@
     height: 105vh;
     
   }
-}
+} */

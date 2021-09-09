@@ -8,7 +8,7 @@ export default function Comments() {
  const [isMobile, setIsMobile] = useState()
 
  window.onload = function() {
-  window.innerWidth < 600 ? setIsMobile(true) : setIsMobile(false)
+  window.innerWidth < 700 ? setIsMobile(true) : setIsMobile(false)
 };
   return (
     <>

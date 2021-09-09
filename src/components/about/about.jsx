@@ -16,9 +16,8 @@ export default function About() {
         <strong>ABOUT ME</strong> 
         <br></br>
           <br></br>
-          I am a full stack developer currently living in Misiones/Argentina. 
-          <strong>I love challenges</strong> , learning new things and deliver
-          quality work.
+          I am a full stack developer currently living in Misiones/Argentina.  <br></br>
+          <strong>I love challenges</strong> , learn and i always try to do a quality job.
           <br></br>
           <br></br>
           When i'm not coding I do things like ...

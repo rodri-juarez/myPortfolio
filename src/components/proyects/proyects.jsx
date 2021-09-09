@@ -48,7 +48,7 @@ export default function Proyects() {
           </Splide>
         </div>
         <div className={style.divDescription}>
-        {window.innerWidth >  600 && <p className={style.descriptionTitle}>Rocket Xchange</p> }
+        <p className={style.descriptionTitle}>Rocket Xchange</p>
           <p className={style.description}>
             Platform that allows users to connect to the Stellar blockchain
             where they can exchange their assets for any other class of
@@ -106,8 +106,9 @@ export default function Proyects() {
           </div>
         </div>
       </li>
+      <hr className={style.hr}></hr>
       <li className={`${style.proyects} ${style.tracking}`}>
-      {window.innerWidth <  600 && <p className={style.descriptionTitleMobile}>Henry Videogames</p> }
+    
         <div className={style.divCarousel}>
           <Splide
             options={{
@@ -162,7 +163,7 @@ export default function Proyects() {
             Technologies:<br></br> React, Redux, Express, Sequelize,
             PostgreSQL.
           </p>
-
+          <div className={style.a}>
           <a
             href="https://github.com/rodri-juarez/PI-Videogames-FT-13"
             target="_blank"
@@ -205,6 +206,7 @@ export default function Proyects() {
               </Button>
             </a>
           </a>
+          </div>
         </div>
       </li>
     </ul>

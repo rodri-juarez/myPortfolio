@@ -20,7 +20,7 @@ export default function Skills() {
           <p className={style.p}>LOGICAL SOLUTIONS</p>
           <p className={style.text}>
             My interests in many different fields has helped me to stay curious,
-            open and flexible this have been essential in the concepting of
+            open and flexible, this have been essential in the concepting of
             solutions.
           </p>
         </div>
@@ -29,8 +29,7 @@ export default function Skills() {
           <hr className={style.hr}></hr>
           <p className={style.p}>CLEAN CODE</p>
           <p className={style.text}>
-            I apply simple techniques that facilitate the writing and reading of
-            a code, making it easier to understand.
+          I use simple techniques that make it easy to write and read the code.
           </p>
         </div>
       </div>

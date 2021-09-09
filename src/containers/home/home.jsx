@@ -3,7 +3,7 @@ import style from "./home.module.css";
 import { Link } from "react-router-dom";
 import Skills from "../../components/skills/skills";
 import Switch from "../../components/switch/switch";
-import Frontend from '../../components/switch/frontend';
+import Frontend from "../../components/switch/frontend";
 import Backend from "../../components/switch/backend";
 import Comments from "../../components/comments/comments";
 import About from "../../components/about/about";
@@ -14,25 +14,16 @@ export default function Home() {
   return (
     <>
       <section className={style.sectionWelcome}>
-        <p className={`${style.hello}  ${style.tracking}`}>Hi, i'm </p>{" "}
+        <p className={`${style.hello}  ${style.tracking}`}>HI, I'M </p>{" "}
+        <p className={`${style.name}  ${style.tracking}`}>RODRIGO JUAREZ</p>{" "}
+        <p className={`${style.job}  ${style.tracking}`}>
+          FULL STACK DEVELOPER
+        </p>
       </section>
-      <section className={style.sectionName}>
-        <p className={`${style.rodrigo}  ${style.tracking}`}>RODRIGO JUAREZ</p>{" "}
-        {/* <p className={`${style.rodrigo}  ${style.tracking}`}>JUAREZ</p> */}
-      </section>
-      <section className={style.sectionJob}>
-        <p className={`${style.full}  ${style.tracking}`}>Full Stack DEVELOPER</p>
-        {/* <p className={`${style.stack}  ${style.tracking}`}>Stack</p>
-        <p className={`${style.developer}  ${style.tracking}`}>DEVELOPER</p> */}
-      </section>
-      <section className={`${style.sectionSkills}  ${style.tracking}`}>
       <Skills />
-      </section>
       <section className={style.sectionTech}>
-        <Switch isOn={isOn}
-        handleToggle={() => setIsOn(!isOn)}
-         />
-         {!isOn ? <Frontend />: <Backend />}
+        <Switch isOn={isOn} handleToggle={() => setIsOn(!isOn)} />
+        {!isOn ? <Frontend /> : <Backend />}
       </section>
       <section className={style.sectionAbout}>
         <About />
@@ -42,7 +33,7 @@ export default function Home() {
       </section>
 
       <section className={style.contact}>
-        <button className={style.excentrico}>
+        <button className={style.btn}>
           <Link to="/Contact" className={style.link}>
             CONTACT ME
           </Link>
