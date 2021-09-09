@@ -65,5 +65,13 @@
     font-size: 0.9rem;
     font-weight: 700;
   }
-  
+}
+@media screen and (min-width: 1900px) {
+  .list {
+    height: 130px;
+    width: 130px;
+    border-radius: 130px;
+    font-size: 1.2rem;
+    font-weight: 700;
+  }
 }

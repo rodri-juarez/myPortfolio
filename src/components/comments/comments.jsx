@@ -99,7 +99,7 @@ export default function Comments() {
               rel="noreferrer"
             >
               <Avatar
-                style={{ width: "50px", height: "50px" }}
+                style={{ width: window.innerWidth > 1800 ? "80px" : "50px", height: window.innerWidth > 1800 ? "80px" : "50px" }}
                 alt="Andres Trujillo"
                 src="https://i.ibb.co/DYSnPt2/andres.jpg"
                 className={style.avatar}
@@ -127,7 +127,7 @@ export default function Comments() {
               rel="noreferrer"
             >
               <Avatar
-                style={{ width: "50px", height: "50px" }}
+                style={{ width: window.innerWidth > 1800 ? "80px" : "50px", height: window.innerWidth > 1800 ? "80px" : "50px" }}
                 alt="Facundo Bettella"
                 src="https://i.ibb.co/3CBmTQP/facundo.jpg"
                 className={style.avatar}

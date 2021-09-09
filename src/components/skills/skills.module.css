@@ -82,7 +82,7 @@
 
 @media screen and (min-width: 1000px) {
   .divContainer {
-    height: 90vh;
+    height: 40vw;
     justify-content: start;
   }
   .title {
@@ -104,6 +104,33 @@
   .img3 {
     height: 200px;
     width: 100%;
+  }
+}
+@media screen and (min-width: 1800px) {
+  .divContainer {
+    height: 40vw;
+    
+  }
+  .title {
+    width: 96.3%;
+    font-size: 2rem;
+    padding: 18px;
+    border: rgb(121, 121, 121) solid 3px;
+  }
+  .div {
+    border: rgb(121, 121, 121) solid 3px;
+  }
+  .p{
+    font-size: 1.8rem;
+  }
+  .img1,
+  .img2,
+  .img3 {
+    height: 300px;
+    width: 100%;
+  }
+  .text{
+    font-size: 1.4rem;
   }
 }
 /* @media screen and (max-width: 540px) {

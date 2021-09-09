@@ -162,6 +162,23 @@
   }
 
 }
+@media screen and (min-width: 1800px) {
+  .hello {
+    font-size: 8rem;
+  }
+  .name {
+    font-size: 15rem;
+    margin: 1.5rem;
+  }
+  .job {
+    font-size: 7rem;
+    -webkit-text-stroke: 3px #1e1e5d;
+  }
+}
+
+.sectionTech{
+  height: 20vw;
+}
 /* .sectionWelcome {
   background-color: transparent;
   height: 15vh;

@@ -38,7 +38,6 @@
 .infoDevContainer {
   display: flex;
   flex-direction: column;
-  
 }
 .infoDev {
   height: 80%;
@@ -72,18 +71,35 @@
   margin-bottom: 0px;
 }
 @media screen and (min-width: 1000px) {
-   .divContainer{
-     flex-direction: row;
-   }
-   .infoDevContainer{
-     flex-direction: row;
-   }
-   .infoDev{
-     height: 100%;
-     justify-content: center;
-     text-align: start;
-     margin-left: 10px;
-   }
+  .divContainer {
+    flex-direction: row;
+  }
+  .infoDevContainer {
+    flex-direction: row;
+  }
+  .infoDev {
+    height: 100%;
+    justify-content: center;
+    text-align: start;
+    margin-left: 10px;
+  }
+}
+@media screen and (min-width: 1800px) {
+  .p {
+    font-size: 1.5rem;
+  }
+  .infoDev{
+    margin-left: 20px;
+    height: 80px;
+  }
+  .pTitle{
+    height: 50%;
+   font-size: 1.5rem;
+  }
+  .pDescription{ 
+    height: 50%;
+    font-size: 1.5rem;
+  }
 }
 
 /* @media screen and (max-width: 540px) {
