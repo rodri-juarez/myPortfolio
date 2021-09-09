@@ -3,9 +3,10 @@
   flex-direction: column;
   height: 380vw;
   align-items: center;
+
 }
 .title {
-  width: 72%;
+  width: 100%;
   display: flex;
   justify-content: center;
   font-family: "Bebas Neue", cursive;
@@ -85,7 +86,7 @@
     justify-content: start;
   }
   .title {
-    width: 95.5%;
+    width: 96%;
     font-size: 1.5rem;
   }
   .div {
@@ -103,6 +104,9 @@
   .img3 {
     height: 200px;
     width: 100%;
+  }
+  .text {
+    font-size: 1.2rem;
   }
 }
 @media screen and (min-width: 1800px) {
@@ -137,52 +141,6 @@
     height: 370vw;
   }
 }
-/* @media screen and (max-width: 540px) {
-  .divCards {
-    flex-direction: column;
-  }
-  .title{
-    width: 82%;
-    margin-left: 1%;
-  }
-  .div {
-    width: 90%;
-    margin: 1rem;
-    height: 30%;
-  }
-  .img1,
-  .img2,
-  .img3 {
-    height: 120px;
-  }
-  .p {
-    font-size: 1rem;
-    margin-bottom: 5px;
-  }
-}
-
-@media screen and (min-width: 1600px) and (max-height: 1300px) {
-  .div {
-    height: 40vh;
-  }
-  .img1,
-  .img2,
-  .img3 {
-    height: 500px;
-    width: 80%;
-  }
-  .title {
-    width: 92.5%;
-    margin-left: 0%;
-  }
-}
-@media screen and (min-width: 360px) and (max-width: 500px) and (max-height: 800px) {
-  .title{
-    width: 80.5vw;
-    margin-left: 0%;
-  }
-}
- */
 
 .tracking {
   -webkit-animation: tracking 1.3s cubic-bezier(0.215, 0.61, 0.355, 1) both;

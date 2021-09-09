@@ -69,8 +69,9 @@ export default function Proyects() {
                 className={style.button}
                 style={{
                   fontWeight: "400",
-                  fontSize: "12px",
-                  height: "35px",
+                  fontSize: window.innerWidth > 1100 ? "15px" : "12px",
+                  height: window.innerWidth > 1100 ? "40px" : "35px",
+                  width: window.innerWidth > 1100 ? "150px" : "120px",
                   margin: "5px",
                   borderRadius: "0px",
                   background: "#4365d6",
@@ -90,8 +91,9 @@ export default function Proyects() {
                 className={style.button}
                 style={{
                   fontWeight: "400",
-                  fontSize: "12px",
-                  height: "35px",
+                  fontSize: window.innerWidth > 1100 ? "15px" : "12px",
+                  height: window.innerWidth > 1100 ? "40px" : "35px",
+                  width: window.innerWidth > 1100 ? "150px" : "120px",
                   margin: "5px",
                   borderRadius: "0px",
                   background: "#4365d6",
@@ -172,8 +174,9 @@ export default function Proyects() {
               className={style.button}
               style={{
                 fontWeight: "400",
-                fontSize: "12px",
-                height: "35px",
+                fontSize: window.innerWidth > 1100 ? "15px" : "12px",
+                height: window.innerWidth > 1100 ? "40px" : "35px",
+                width: window.innerWidth > 1100 ? "150px" : "120px",
                 margin: "5px",
                 borderRadius: "0px",
                 background: "#4365d6",
@@ -192,8 +195,9 @@ export default function Proyects() {
                 className={style.button}
                 style={{
                   fontWeight: "400",
-                  fontSize: "12px",
-                  height: "35px",
+                  fontSize: window.innerWidth > 1100 ? "15px" : "12px",
+                  height: window.innerWidth > 1100 ? "40px" : "35px",
+                  width: window.innerWidth > 1100 ? "150px" : "120px",
                   margin: "5px",
                   borderRadius: "0px",
                   background: "#4365d6",

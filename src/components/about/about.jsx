@@ -1,23 +1,17 @@
 import style from "./about.module.css";
-/* "https://i.ibb.co/4SBRZnC/img.png" */
 
 export default function About() {
   return (
     <div className={style.divContainer}>
-      <div className={style.div}>
-        <img
-          className={style.img}
-          src="https://i.ibb.co/C62hZFD/Whats-App-Image-2021-09-07-at-22-44-55.jpg"
-          alt="Rodrigo Juarez"
-        ></img>
-      </div>
+      <div className={style.div}></div>
       <div className={style.activity}>
         <div className={style.p}>
-        <strong>ABOUT ME</strong> 
-        <br></br>
+          <strong>ABOUT ME</strong>
           <br></br>
-          I am a full stack developer currently living in Misiones/Argentina.  <br></br>
-          <strong>I love challenges</strong> , learn and i always try to do a quality job.
+          <br></br>I am a full stack developer currently living in
+          Misiones/Argentina. <br></br>
+          <strong>I love challenges</strong> , learn and i always try to do a
+          quality job.
           <br></br>
           <br></br>
           When i'm not coding I do things like ...
@@ -27,7 +21,8 @@ export default function About() {
           think about my things, it helps me focus and get back on track 100%
           <br></br>
           <br></br>
-          <strong>Listening music!</strong> Rock, pop etc... I'm open minded. 
+          <strong>Listening music!</strong> Rock, pop etc... I am open-minded
+          and I like to listen to styles from other cultures that I do not know.
         </div>
       </div>
     </div>

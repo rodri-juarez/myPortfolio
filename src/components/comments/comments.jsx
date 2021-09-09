@@ -3,8 +3,6 @@ import Avatar from "@material-ui/core/Avatar";
 import { Splide, SplideSlide } from "@splidejs/react-splide";
 
 export default function Comments() {
-  
-  
   return (
     <>
       {window.innerWidth < 700 ? (
@@ -92,15 +90,18 @@ export default function Comments() {
                 target="_blank"
                 rel="noreferrer"
               >
-                <Avatar
+                <div
                   style={{
-                    width: window.innerWidth > 1800 ? "80px" : "50px",
-                    height: window.innerWidth > 1800 ? "80px" : "50px",
+                    width: window.innerWidth > 1100 ? "60px" : "45px",
+                    height: window.innerWidth > 1100 ? "60px" : "45px",
+                    borderRadius: window.innerWidth > 1100 ? "60px" : "45px",
+                    backgroundImage:
+                      'url("https://i.ibb.co/DYSnPt2/andres.jpg")',
+                    backgroundSize: "cover",
+                    border: "#494d5f solid 2px",
+                    marginBottom: window.innerWidth < 700 ? "10px" : "0px",
                   }}
-                  alt="Andres Trujillo"
-                  src="https://i.ibb.co/DYSnPt2/andres.jpg"
-                  className={style.avatar}
-                />
+                ></div>
               </a>
               <div className={style.infoDev}>
                 <h4 className={style.pTitle}>Andres Trujillo</h4>
@@ -123,15 +124,18 @@ export default function Comments() {
                 target="_blank"
                 rel="noreferrer"
               >
-                <Avatar
+                <div
                   style={{
-                    width: window.innerWidth > 1800 ? "80px" : "50px",
-                    height: window.innerWidth > 1800 ? "80px" : "50px",
+                    width: window.innerWidth > 1100 ? "60px" : "45px",
+                    height: window.innerWidth > 1100 ? "60px" : "45px",
+                    borderRadius: window.innerWidth > 1100 ? "60px" : "45px",
+                    backgroundImage:
+                      'url("https://i.ibb.co/3CBmTQP/facundo.jpg")',
+                    backgroundSize: "cover",
+                    border: "#494d5f solid 2px",
+                    marginBottom: window.innerWidth < 700 ? "10px" : "0px",
                   }}
-                  alt="Facundo Bettella"
-                  src="https://i.ibb.co/3CBmTQP/facundo.jpg"
-                  className={style.avatar}
-                />
+                ></div>
               </a>
               <div className={style.infoDev}>
                 <h4 className={style.pTitle}>Facundo Bettella</h4>

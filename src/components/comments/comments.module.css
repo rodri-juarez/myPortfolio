@@ -45,11 +45,6 @@
   justify-content: center;
   text-align: center;
 }
-
-.avatar {
-  border: #494d5f solid 2px;
-  margin-bottom: 10px;
-}
 .pTitle {
   height: 25px;
   margin-block-start: 0px;
@@ -83,8 +78,8 @@
     text-align: start;
     margin-left: 10px;
   }
-  .avatar{
-    margin-bottom: 10px;
+  .p{
+    font-size: 1.1rem;
   }
 }
 @media screen and (min-width: 1800px) {
@@ -104,115 +99,3 @@
     font-size: 1.5rem;
   }
 }
-
-/* @media screen and (max-width: 540px) {
-  .divContainer {
-    display: flex;
-    flex-direction: column;
-    width: 90%;
-    height: 100%;
-  }
-  .div {
-    width: 90%;
-    height: 40%;
-    margin: 5%;
-  }
-  .infoDevContainer {
-    flex-direction: column;
-  }
-  .infoDev{
-    text-align: center;
-  }
-
-  .p {
-    width: 85%;
-    color: rgb(45, 45, 45);
-    flex-wrap: wrap;
-    text-align: center;
-  }
-}
-
-@media screen and (min-width: 370px) and (max-height: 800px) {
-  .divMobile {
-    height: 50vh;
-    width: 90%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin: 3%;
-    border: #494d5f solid 2px;
-  }
-  .divContainer {
-    margin-top: 0%;
-    height: 90vh;
-  }
-  .div {
-    height: 45vh;
-  }
-  .infoDev {
-    margin-top: 7px;
-  }
-}
-
-@media screen and (max-width: 340px) and (max-height: 600px) {
-  .divContainer {
-    height: 160vh;
-    margin-top: 0%;
-  }
-  .infoDevContainer {
-    width: 85%;
-    height: 50%;
-  }
-  .infoDev {
-    margin-top: 0px;
-    margin-bottom: 10px;
-  }
-  .p {
-    margin-top: 35px;
-  }
-}
-
-@media screen and (max-width: 340px) and (max-height: 500px) {
-  .divContainer {
-    margin-top: 25%;
-    margin-bottom: 10%;
-  }
-  .infoDevContainer {
-    width: 85%;
-    height: 50%;
-  }
-  .infoDev {
-    height: 80%;
-    margin-top: 7px;
-    margin-bottom: 35px;
-  }
-  .p {
-    margin-top: 35px;
-  }
- 
-}
-@media screen and (min-width: 360px) and (max-width: 500px) and (max-height: 800px) {
-  .div {
-    height: 50vh;
-  }
-  .divContainer {
-    height: 120vh;
-    margin-top: 20%;
-    margin-bottom: 10%;
-  }
-  .infoDevContainer {
-    flex-direction: column;
-  }
-  .infoDev{
-    text-align: center;
-  }
-}
-
-@media screen and (min-width: 1600px) and (max-height: 1300px) {
-  .divContainer {
-    height: 80%;
-    margin-top: -4%;
-  }
-}
- */

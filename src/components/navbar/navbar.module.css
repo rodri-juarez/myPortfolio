@@ -143,8 +143,8 @@
   }
 }
 
-@media screen and (min-width: 1600px) and (max-height: 1300px) {
+@media screen and (min-width: 1100px)  {
   .li{
-    font-size: 2rem;
+    font-size: 1.7rem;
   }
 }
