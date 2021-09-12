@@ -91,6 +91,7 @@ export default function Comments() {
                 rel="noreferrer"
               >
                 <div
+                  className={style.avatar}
                   style={{
                     width: window.innerWidth > 1100 ? "60px" : "45px",
                     height: window.innerWidth > 1100 ? "60px" : "45px",
